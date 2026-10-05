@@ -46,3 +46,6 @@ Each recommendation returns verdict, runnerUp, savingsVsRunnerUp, rationale, cas
 
 ### Overall recommendation clarification
 User requested an overall country/strategy conclusion. Replaced single-country top verdict with backend canonical screening across Ireland, Finland and Canada, including all alternatives and required stresses. Country remains unresolved: common lease price and FIN/CAN tariff proxies cannot establish a location winner; site, quote, latency and jurisdiction evidence remains incomplete. Visitor scenario result is separately labeled and cannot silently change the overall canonical recommendation. Added cross-country regression; no country selected or commitment invented.
+
+### Overview ordering and labels
+At user request, moved dynamic energy cards beneath the what-if controls into calculated results. Labeled scenario country, calculation update timing, PUE ratio, full-power annual energy and baseline stress cases explicitly. Overall recommendation remains first and independent from visitor input changes. Existing controls, tables, sources and calculations preserved.
