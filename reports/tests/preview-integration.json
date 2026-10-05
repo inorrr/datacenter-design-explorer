@@ -1,7 +1,7 @@
 {
   "environment": "real local Vinext + D1; SIWC identity simulated by supported preview middleware; no real OpenAI calls",
   "origin": "http://127.0.0.1:5173",
-  "at": "2026-10-05T20:50:27.014Z",
+  "at": "2026-10-05T21:55:56.853Z",
   "tests": [
     {
       "name": "real preview D1 read persists seeded evidence",
@@ -52,7 +52,7 @@
       "status": "pass"
     },
     {
-      "name": "registered adviser shows unavailable provider 503 without pretending to answer",
+      "name": "registered adviser validates input or honestly reports missing provider",
       "status": "pass"
     }
   ]

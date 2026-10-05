@@ -1,14 +1,16 @@
 {
   "as_of": "2026-10-05",
-  "deployed_adviser_sessions": 6,
-  "successful_deployed_sessions": 3,
+  "deployed_adviser_sessions": 7,
+  "successful_deployed_sessions": 4,
   "controlled_local_live_eval_runs": 3,
   "direct_diagnostic_requests": 1,
-  "reported_deployed_tokens": 54440,
+  "reported_deployed_tokens": 68356,
   "reported_local_eval_tokens": 35354,
-  "reported_total_tokens": 89794,
-  "reported_input_tokens": 87161,
-  "reported_output_tokens": 2633,
+  "reported_total_tokens": 114860,
+  "reported_input_tokens": 111104,
+  "reported_output_tokens": 3756,
   "unknown_usage_requests": 2,
-  "status": "Credits available; three deployed journeys and one controlled real-provider injection/revision fixture pass. Historical quota/grounding/budget failures included; two quota-rejected requests returned no usage. Counts exclude Codex development usage. No exact dollar cost inferred."
+  "status": "Reported totals include all historical live-provider fixture runs, local preview and deployed sessions, including failed attempts. Two quota-rejected requests returned no usage. Excludes Codex development usage.",
+  "local_preview_provider_sessions": 1,
+  "reported_local_preview_tokens": 11150
 }

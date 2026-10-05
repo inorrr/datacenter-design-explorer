@@ -1,0 +1,62 @@
+- complementary:
+  - link "DC EXPLORER":
+    - /url: /
+    - text: DC
+    - generic: EXPLORER
+  - paragraph: UNIVERSITY AI INFRASTRUCTURE
+  - navigation "Main navigation":
+    - link "01Overview":
+      - /url: /
+      - generic: "01"
+      - text: Overview
+    - link "02Country Comparison":
+      - /url: /countries
+      - generic: "02"
+      - text: Country Comparison
+    - link "03Initial Design":
+      - /url: /design
+      - generic: "03"
+      - text: Initial Design
+    - link "04Evidence":
+      - /url: /evidence
+      - generic: "04"
+      - text: Evidence
+    - link "05Ask the Adviser":
+      - /url: /adviser
+      - generic: "05"
+      - text: Ask the Adviser
+  - paragraph: Course project · v1.1
+  - paragraph: Evidence before commitment
+  - generic: admin
+  - link "Sign out":
+    - /url: /signout-with-chatgpt?return_to=%2F
+- main:
+  - paragraph: CONSORTIUM DECISION WORKSPACE
+  - heading "Ask the Adviser" [level=1]
+  - generic: Design r3 · Model 1.1.0
+  - heading "Ask about the evidence, design or calculations" [level=2]
+  - paragraph: This analysis is limited to the evidence and assumptions shown. It provides decision support, not financial, regulatory, or engineering certification. Users and the investment committee should make their own decisions after independent review.
+  - paragraph: Registered admin. Live adviser configured.
+  - button "What is the current PUE?"
+  - button "How much energy at PUE 1.4?"
+  - button "What remains unknown about the grid?"
+  - button "Why does the 12-month delay change costs?"
+  - button "Can this design be certified?"
+  - text: Your question
+  - textbox "Your question"
+  - button "Ask adviser"
+  - article:
+    - heading "What are the conditional recommendations for the base, one-year grid delay and half-utilization cases? Explain why and distinguish each modeled preference from investment approval readiness." [level=3]
+    - paragraph: "The conditional recommendations for the three cases — base, one-year grid delay (delay), and half-utilization (half) — all favor the LEASE strategy as the preferred approach, followed by HYBRID as the runner-up. This preference is based on the lowest discounted ten-year cash cost for an equivalent delivered workload under the model's assumptions. Detailed distinctions are as follows: 1. Base Case: LEASE is preferred due to avoidance of capital exposure required for facility and GPU ownership. The discounted cost savings versus HYBRID are about USD 76.9 million over ten years. While LEASE has no upfront capital, it pays more operating costs annually. The conditional recommendation reflects modeled cost efficiency assuming cancelable service contracts and workload equivalence but is not investment approval since critical data such as signed member commitments and utility offers are missing. 2. One-Year Grid Delay: LEASE remains preferred, saving about USD 25.7 million over HYBRID on a discounted basis. The delay increases bridge leasing and pre-opening leasing costs; ownership commissioning is postponed. The reported costs reflect timing effects within the fixed horizon without salvage value credit. 3. Half Utilization: LEASE advantage is larger, with over USD 537 million discounted saving versus HYBRID. Here, productive demand is halved but owned fixed capital and staffing remain, increasing cost per delivered GPU-hour for BUILD and HYBRID options. Idle power consumption also limits electricity cost reductions. Leasing cost scales more directly with delivered GPU hours. In all cases, these modeled preferences are conditional screening results, not investment approvals. Approval readiness gaps include lack of signed workload commitments, site-specific utility capacity and upgrade cost data, and comparable lease price and vendor quotes. These gaps affect the certainty and feasibility of project implementation. Thus, while leasing appears financially preferable here under the given assumptions and ten-year horizon, investment decisions require more evidence and verified commitments. Key assumptions include a 20 MW IT load baseline, PUE of 1.25, 60% utilization, and uniform lease price assumptions. The design is a concept with no site or member commitments, and critical utility factors remain unknown. The approach focuses on cash cost minimization discounting future expenditures rather than operational performance, resilience, or strategic considerations."
+    - link "[S1] Data centre connection policy consultation":
+      - /url: https://www.cru.ie/about-us/news/new-electricity-connection-policy-for-data-centre/
+    - link "[S2] Southern Finland connection capacity update":
+      - /url: https://www.fingrid.fi/en/news/news/2025/fingrid-secures-transmission-capacity-for-growth-in-electricity-consumption-and-new-industrial-investments--restrictions-on-new-energy-storage-facility-connections-continued-in-southern-finland/
+    - link "[S10] Final electricity connection policy for data centres":
+      - /url: https://www.cru.ie/about-us/news/the-cru-publishes-its-decision-on-new-electricity-connection-policy-for-data-centres/
+    - paragraph: "Assumptions: Workload delivered per GPU-hour equivalence holds across ownership and lease.; Lease contract is cancellable as assumed, without long-term capital exposure.; Demand forecast and utilization rates per baseline design are accurate: 64,197,572.4 productive GPU-hours per year at 60% utilization.; Costs are illustrative, including GPU price, facility capital, lease price, PUE, and electricity tariff assumptions.; Hybrid ownership is 50% initial with expansion at year 4 per model design.; No signed member demand commitments; lease price comparables and site utility offers are missing.; Ten-year horizon and 8% discount rate apply to cash flow evaluation."
+    - paragraph: "Unknowns: No site-specific utility capacity, upgrade cost, or energization offers are included; these could materially affect ownership feasibility and cost.; No verified lease contract terms on throughput, egress, SLA, or reservation guarantees; workload equivalence is unverified.; Operational risks such as 48-hour uptime, fuel supply, and network redundancy are not guaranteed in current assumptions.; Omitted salvage value and timing effects in cost smoothing may bias delayed ownership cost assessment.; Exact impact of idle power consumption and fixed staffing on cost per productive GPU hour may vary in practice.; The model does not consider strategic or qualitative factors beyond cash cost minimization.; Current conditional recommendation is a screening preference under modeled assumptions, not formal investment approval. More evidence is required before committing capital."
+    - paragraph: Design r3 · Evidence 5afcbcdbde653c37 · Model 1.1.0
+  - text: Educational design concept · Current evidence and assumptions govern every result ·
+  - link "Inspect provenance":
+    - /url: /evidence

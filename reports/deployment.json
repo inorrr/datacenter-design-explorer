@@ -1,8 +1,8 @@
 {
-  "id": "appgdep_6ac4174e44b481919e28f2fa216f63cf",
+  "id": "appgdep_6ac41cdc00c48191988fbef90f7aa22f",
   "project_id": "appgprj_6ac409d92d888191b9d76b8bf8d1b719",
   "title": "Datacenter Design Explorer",
-  "version_id": "appgprj_6ac409d92d888191b9d76b8bf8d1b719~appgver_1cf204c8a8848191a8bd39e2bb24e4e4",
+  "version_id": "appgprj_6ac409d92d888191b9d76b8bf8d1b719~appgver_96016c83e5748191a361774bb7c7429f",
   "type": "publish",
   "status": "succeeded",
   "url": "https://datacenter-design-explorer.yinuozhao959.chatgpt.site",
@@ -11,13 +11,13 @@
   "provider_deployment_id": "site---6ac409d92d888191b9d76b8bf8d1b719",
   "failure_message": null,
   "env_set_revision": 2,
-  "updated_at": "2026-10-05T21:32:08.525829+00:00",
-  "commit_sha": "698b1be5a5d16567f704d0637e03191fa6083721",
+  "updated_at": "2026-10-05T21:55:49.699211+00:00",
+  "commit_sha": "cd39f9f587dc1d34ad85d869834673c97ed8eced",
   "access": "public",
   "design_revision": 3,
-  "model_version": "1.0.0",
+  "model_version": "1.1.0",
   "evidence_snapshot": "5afcbcdbde653c37341bfce66afcbe8fefaa1927daba06b50bb589a0d5a45423",
   "openai_configured": true,
-  "verification": "reports/tests/adviser-live.json",
-  "published_source_note": "Final post-publication verification and usage reports supplement this committed application source."
+  "verification": "reports/tests/deployed-service.json",
+  "published_source_note": "Post-publication verification and documentation supplement the deployed application source."
 }

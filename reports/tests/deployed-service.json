@@ -1,8 +1,8 @@
 {
-  "at": "2026-10-05T21:33:04.877Z",
+  "at": "2026-10-05T21:56:46.832Z",
   "environment": "Real deployed Sites Worker/D1; private platform service access supplies no human SIWC identity",
-  "deployment": "appgdep_6ac4174e44b481919e28f2fa216f63cf",
-  "commit": "698b1be5a5d16567f704d0637e03191fa6083721",
+  "deployment": "appgdep_6ac41cdc00c48191988fbef90f7aa22f",
+  "commit": "cd39f9f587dc1d34ad85d869834673c97ed8eced",
   "origin": "https://datacenter-design-explorer.yinuozhao959.chatgpt.site",
   "snapshot": "5afcbcdbde653c37341bfce66afcbe8fefaa1927daba06b50bb589a0d5a45423",
   "revision": 3,
@@ -37,6 +37,10 @@
     },
     {
       "name": "deployed HTML does not cache obsolete client chunks",
+      "status": "pass"
+    },
+    {
+      "name": "conditional stress preferences and changing custom scenario retain approval gates",
       "status": "pass"
     }
   ]

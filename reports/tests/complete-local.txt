@@ -6,150 +6,174 @@ TAP version 13
 # Subtest: mocked provider: current revised PUE retrieved; actual fixture usage persisted
 ok 1 - mocked provider: current revised PUE retrieved; actual fixture usage persisted
   ---
-  duration_ms: 13.411375
+  duration_ms: 13.505625
   type: 'test'
   ...
 # Subtest: mocked provider: untrusted injection kept as data and policy/tool boundaries enforced
 ok 2 - mocked provider: untrusted injection kept as data and policy/tool boundaries enforced
   ---
-  duration_ms: 0.6455
+  duration_ms: 0.674
   type: 'test'
   ...
 # Subtest: mocked provider: nonexistent citation corrected once; repeat invalid safely refused
 ok 3 - mocked provider: nonexistent citation corrected once; repeat invalid safely refused
   ---
-  duration_ms: 1.57375
+  duration_ms: 1.607666
   type: 'test'
   ...
 # Subtest: mocked provider: arbitrary tool rejected, no writes from tools
 ok 4 - mocked provider: arbitrary tool rejected, no writes from tools
   ---
-  duration_ms: 0.746791
+  duration_ms: 0.781584
   type: 'test'
   ...
 # Subtest: mocked provider: failed request usage unknown, never recorded as zero
 ok 5 - mocked provider: failed request usage unknown, never recorded as zero
   ---
-  duration_ms: 0.627833
+  duration_ms: 0.66825
   type: 'test'
   ...
 # Subtest: mocked provider: rate limit and AI-disable block before fetch
 ok 6 - mocked provider: rate limit and AI-disable block before fetch
   ---
-  duration_ms: 0.133916
+  duration_ms: 0.1365
   type: 'test'
   ...
 # Subtest: mocked provider: tool calls do not consume the single citation correction
 ok 7 - mocked provider: tool calls do not consume the single citation correction
   ---
-  duration_ms: 1.908292
+  duration_ms: 2.037667
   type: 'test'
   ...
-1..7
-# tests 7
+# Subtest: mocked adviser receives conditional preference and separate approval requirements
+ok 8 - mocked adviser receives conditional preference and separate approval requirements
+  ---
+  duration_ms: 0.879333
+  type: 'test'
+  ...
+1..8
+# tests 8
 # suites 0
-# pass 7
+# pass 8
 # fail 0
 # cancelled 0
 # skipped 0
 # todo 0
-# duration_ms 62.465125
+# duration_ms 64.118125
 TAP version 13
-# (node:16922) ExperimentalWarning: Transform Types is an experimental feature and might change at any time
+# (node:23160) ExperimentalWarning: Transform Types is an experimental feature and might change at any time
 # (Use `node --trace-warnings ...` to show where the warning was created)
 # Subtest: authorization matrix: visitor, unregistered, viewer, editor, admin and foreign team
 ok 1 - authorization matrix: visitor, unregistered, viewer, editor, admin and foreign team
   ---
-  duration_ms: 0.674
+  duration_ms: 0.664625
   type: 'test'
   ...
 # Subtest: genuine recorded API response validates exactly three latest historical observations
 ok 2 - genuine recorded API response validates exactly three latest historical observations
   ---
-  duration_ms: 0.841042
+  duration_ms: 0.878791
   type: 'test'
   ...
 # Subtest: malformed and missing-country API responses reject before persistence
 ok 3 - malformed and missing-country API responses reject before persistence
   ---
-  duration_ms: 0.134041
+  duration_ms: 0.152917
   type: 'test'
   ...
 # Subtest: citations require retrieved source and supporting linked claim
 ok 4 - citations require retrieved source and supporting linked claim
   ---
-  duration_ms: 0.20175
+  duration_ms: 0.221083
   type: 'test'
   ...
-# (node:16923) ExperimentalWarning: Transform Types is an experimental feature and might change at any time
+# (node:23161) ExperimentalWarning: Transform Types is an experimental feature and might change at any time
 # (Use `node --trace-warnings ...` to show where the warning was created)
 # Subtest: assignment exact nameplate energy and revised PUE
 ok 5 - assignment exact nameplate energy and revised PUE
   ---
-  duration_ms: 0.875125
+  duration_ms: 0.923208
   type: 'test'
   ...
 # Subtest: reject invalid values and bounded steps
 ok 6 - reject invalid values and bounded steps
   ---
-  duration_ms: 0.264667
+  duration_ms: 0.273583
   type: 'test'
   ...
 # Subtest: all alternatives deliver same fixed demand at small and large scale
 ok 7 - all alternatives deliver same fixed demand at small and large scale
   ---
-  duration_ms: 2.059416
+  duration_ms: 3.266875
   type: 'test'
   ...
 # Subtest: delay moves owned commissioning, preserves demand and adds bridge/carrying
 ok 8 - delay moves owned commissioning, preserves demand and adds bridge/carrying
   ---
-  duration_ms: 0.293958
+  duration_ms: 0.546708
   type: 'test'
   ...
 # Subtest: half demand preserves capital/fleet/staff and does not halve energy
 ok 9 - half demand preserves capital/fleet/staff and does not halve energy
   ---
-  duration_ms: 0.207
+  duration_ms: 0.788292
   type: 'test'
   ...
 # Subtest: tranche replacements follow age; year-4 expansion no duplicate fleet
 ok 10 - tranche replacements follow age; year-4 expansion no duplicate fleet
   ---
-  duration_ms: 0.731292
+  duration_ms: 0.195042
   type: 'test'
   ...
 # Subtest: financing principal and unused allocation not double-counted
 ok 11 - financing principal and unused allocation not double-counted
   ---
-  duration_ms: 0.40175
+  duration_ms: 0.281042
   type: 'test'
   ...
 # Subtest: zero demand gives unavailable unit metrics
 ok 12 - zero demand gives unavailable unit metrics
   ---
-  duration_ms: 0.206291
+  duration_ms: 0.166625
   type: 'test'
   ...
-# Subtest: missing critical evidence and exact tie cannot force recommendation
-ok 13 - missing critical evidence and exact tie cannot force recommendation
+# Subtest: approval gaps do not suppress conditional screening; exact ties stay unresolved
+ok 13 - approval gaps do not suppress conditional screening; exact ties stay unresolved
   ---
-  duration_ms: 0.40975
+  duration_ms: 0.546708
   type: 'test'
   ...
 # Subtest: deterministic reproducibility and complete sensitivity sweep
 ok 14 - deterministic reproducibility and complete sensitivity sweep
   ---
-  duration_ms: 13.943583
+  duration_ms: 20.159625
   type: 'test'
   ...
-1..14
-# tests 14
+# Subtest: required cases derive preference from costs with approval separately gated
+ok 15 - required cases derive preference from costs with approval separately gated
+  ---
+  duration_ms: 0.369125
+  type: 'test'
+  ...
+# Subtest: bounded GPU acquisition scenario changes preference without granting approval
+ok 16 - bounded GPU acquisition scenario changes preference without granting approval
+  ---
+  duration_ms: 6.216125
+  type: 'test'
+  ...
+# Subtest: invalid costs, zero demand, missing delivery and unequal workload remain unresolved
+ok 17 - invalid costs, zero demand, missing delivery and unequal workload remain unresolved
+  ---
+  duration_ms: 0.149
+  type: 'test'
+  ...
+1..17
+# tests 17
 # suites 0
-# pass 14
+# pass 17
 # fail 0
 # cancelled 0
 # skipped 0
 # todo 0
-# duration_ms 101.77275
+# duration_ms 123.15525
 PASS: schema migration, foreign keys, repeatable seed, three real API observations. SQLite fixture, not production D1 integration.

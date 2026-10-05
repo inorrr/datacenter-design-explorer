@@ -1,0 +1,9 @@
+{
+  "model": "gpt-4.1-mini",
+  "status": "success",
+  "input_tokens": 10954,
+  "output_tokens": 196,
+  "total_tokens": 11150,
+  "sessions": 1,
+  "note": "Prior preview harness expected missing-provider state; key was now configured. Fixture role reset and input-validation branch corrected; rerun 13 checks passed without another provider call."
+}
