@@ -49,3 +49,6 @@ User requested an overall country/strategy conclusion. Replaced single-country t
 
 ### Overview ordering and labels
 At user request, moved dynamic energy cards beneath the what-if controls into calculated results. Labeled scenario country, calculation update timing, PUE ratio, full-power annual energy and baseline stress cases explicitly. Overall recommendation remains first and independent from visitor input changes. Existing controls, tables, sources and calculations preserved.
+
+### Recommendation logic audit — model 1.2.0
+User questioned repeated lease preference. Reviewed economics against PRD workload, stress, financing and fixed-hybrid conventions. Kept required inputs unchanged; no forced winners. Added rental-price break-even frontier to each deterministic result and adviser context, applying price to every strategy's leased bridge/overflow. Added full-model validation across all countries/cases and explicit HYBRID/BUILD reversal tests. UI exposes common rental price, cancellability and country proxy limitations; top conclusion now says modeled preference. No provider calls or evidence changes required for this model audit.
