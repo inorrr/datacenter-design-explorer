@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="792" height="612" viewBox="0 0 792 612">
+<rect width="792" height="612" fill="#102d43"/>
+<text x="34" y="46" fill="white" font-family="Arial" font-size="24" font-weight="bold">University AI infrastructure: physical concept</text>
+<text x="34" y="71" fill="white" font-family="Arial" font-size="11">20 MW IT x PUE 1.25 = 25 MW facility | Full-load 219 GWh/year | No utility offer or uptime certification</text>
+<path d="M205.0,182 L395.0,220" fill="none" stroke="#78c9ed" stroke-width="2"/>
+<path d="M585.0,182 L395.0,220" fill="none" stroke="#78c9ed" stroke-width="2"/>
+<path d="M395.0,290 L147.5,328" fill="none" stroke="#78c9ed" stroke-width="2"/>
+<path d="M395.0,290 L396.5,328" fill="none" stroke="#78c9ed" stroke-width="2"/>
+<path d="M395.0,290 L642.5,328" fill="none" stroke="#78c9ed" stroke-width="2"/>
+<rect x="45" y="112" width="320" height="70" rx="6" fill="#eff5f9"/>
+<text x="205.0" y="134" text-anchor="middle" fill="#163b52" font-family="Arial" font-size="12">Utility intake / transformer A</text>
+<text x="205.0" y="150" text-anchor="middle" fill="#163b52" font-family="Arial" font-size="10">25 MVA path; connection and upgrades unknown</text>
+<rect x="425" y="112" width="320" height="70" rx="6" fill="#eff5f9"/>
+<text x="585.0" y="134" text-anchor="middle" fill="#163b52" font-family="Arial" font-size="12">Backup generation / transformer B</text>
+<text x="585.0" y="150" text-anchor="middle" fill="#163b52" font-family="Arial" font-size="10">N+1 5 MW modules; fuel volume unknown</text>
+<rect x="235" y="220" width="320" height="70" rx="6" fill="#eff5f9"/>
+<text x="395.0" y="242" text-anchor="middle" fill="#163b52" font-family="Arial" font-size="12">UPS / independent distribution paths</text>
+<text x="395.0" y="258" text-anchor="middle" fill="#163b52" font-family="Arial" font-size="10">10-minute ride-through assumption; protection TBD</text>
+<rect x="45" y="328" width="205" height="70" rx="6" fill="#eff5f9"/>
+<text x="147.5" y="350" text-anchor="middle" fill="#163b52" font-family="Arial" font-size="12">GPU racks / training fabric</text>
+<text x="147.5" y="366" text-anchor="middle" fill="#163b52" font-family="Arial" font-size="10">H100 reference; 12,857 GPUs</text>
+<rect x="294" y="328" width="205" height="70" rx="6" fill="#eff5f9"/>
+<text x="396.5" y="350" text-anchor="middle" fill="#163b52" font-family="Arial" font-size="12">Liquid cooling / dry coolers</text>
+<text x="396.5" y="366" text-anchor="middle" fill="#163b52" font-family="Arial" font-size="10">Redundant pumps; critical power</text>
+<rect x="540" y="328" width="205" height="70" rx="6" fill="#eff5f9"/>
+<text x="642.5" y="350" text-anchor="middle" fill="#163b52" font-family="Arial" font-size="12">Storage / two network carriers</text>
+<text x="642.5" y="366" text-anchor="middle" fill="#163b52" font-family="Arial" font-size="10">Scratch + replicated archive</text>
+<text x="34" y="486" fill="#d7e8f0" font-family="Arial" font-size="10">Largest component: 25 MVA transformer. Isolate failed path; UPS bridges transfer; shed load if remaining capacity is insufficient.</text>
+<text x="34" y="502" fill="#d7e8f0" font-family="Arial" font-size="10">Full-load failover requires power-factor, switching, protection and thermal studies. No assumed 25 MW guarantee from MVA.</text>
+<text x="34" y="518" fill="#d7e8f0" font-family="Arial" font-size="10">48-hour outage: UPS -> generators -> critical IT/cooling/network. Defer noncritical jobs, checkpoint and lease overflow.</text>
+<text x="34" y="534" fill="#d7e8f0" font-family="Arial" font-size="10">Fuel burn/resupply, generator endurance, permits and carrier/cooling continuity are unverified. Restart is staged.</text>
+</svg>

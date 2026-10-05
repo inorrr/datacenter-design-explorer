@@ -1,0 +1,59 @@
+{
+  "environment": "real local Vinext + D1; SIWC identity simulated by supported preview middleware; no real OpenAI calls",
+  "origin": "http://127.0.0.1:5173",
+  "at": "2026-10-05T20:50:27.014Z",
+  "tests": [
+    {
+      "name": "real preview D1 read persists seeded evidence",
+      "status": "pass"
+    },
+    {
+      "name": "visitor adviser rejected 401",
+      "status": "pass"
+    },
+    {
+      "name": "forged client identity stripped by preview middleware",
+      "status": "pass"
+    },
+    {
+      "name": "visitor mutation rejected 401",
+      "status": "pass"
+    },
+    {
+      "name": "read-only scenario returns exact energy and common workload, under one second",
+      "status": "pass"
+    },
+    {
+      "name": "scenario invalid fields and stale revision rejected",
+      "status": "pass"
+    },
+    {
+      "name": "cross-origin mutations rejected 403",
+      "status": "pass"
+    },
+    {
+      "name": "unregistered 403 observed on first fresh test run",
+      "status": "pass"
+    },
+    {
+      "name": "local simulated SIWC sign-in and unregistered 403",
+      "status": "pass"
+    },
+    {
+      "name": "registration rejects browser role spoof",
+      "status": "pass"
+    },
+    {
+      "name": "registration is persistent/idempotent and viewer-only",
+      "status": "pass"
+    },
+    {
+      "name": "viewer evidence refresh and role changes forbidden",
+      "status": "pass"
+    },
+    {
+      "name": "registered adviser shows unavailable provider 503 without pretending to answer",
+      "status": "pass"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "attempts": [
+    {
+      "at": "2026-10-05T21:29:14.497Z",
+      "status": "failed-input-budget",
+      "input_tokens": 12440,
+      "output_tokens": 370,
+      "total_tokens": 12810,
+      "provider_requests": 2
+    },
+    {
+      "at": "2026-10-05T21:30:08.496Z",
+      "status": "failed-citation",
+      "input_tokens": 10862,
+      "output_tokens": 402,
+      "total_tokens": 11264,
+      "provider_requests": 2
+    },
+    {
+      "at": "2026-10-05T21:30:47.985Z",
+      "status": "passed",
+      "input_tokens": 10905,
+      "output_tokens": 375,
+      "total_tokens": 11280,
+      "provider_requests": 2
+    }
+  ]
+}

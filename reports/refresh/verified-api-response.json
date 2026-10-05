@@ -1,0 +1,60 @@
+{
+  "endpoint": "https://api.worldbank.org/v2/country/IRL;FIN;CAN/indicator/EG.ELC.RNEW.ZS?format=json&per_page=300",
+  "retrieved_at": "2026-10-05T20:44:15.818995+00:00",
+  "metadata": {
+    "page": 1,
+    "pages": 1,
+    "per_page": 300,
+    "total": 198,
+    "sourceid": "2",
+    "lastupdated": "2026-07-13"
+  },
+  "accepted": [
+    {
+      "id": "WB-IRL-2021",
+      "country_id": "IRL",
+      "metric_name": "renewable_output_share",
+      "value": 37.1541775946047,
+      "unit": "%",
+      "period": "2021",
+      "source_id": "S6",
+      "retrieved_at": "2026-10-05T20:44:15.818995+00:00",
+      "limitation": "Historical 2021 national annual output, not site supply, current mix or hourly carbon. Latest available non-null year in verified response.",
+      "definition": "Renewable electricity output as share of total electricity output",
+      "geographic_scope": "IRL",
+      "refresh_run_id": null,
+      "supersedes_id": null
+    },
+    {
+      "id": "WB-FIN-2021",
+      "country_id": "FIN",
+      "metric_name": "renewable_output_share",
+      "value": 52.9302986606029,
+      "unit": "%",
+      "period": "2021",
+      "source_id": "S6",
+      "retrieved_at": "2026-10-05T20:44:15.818995+00:00",
+      "limitation": "Historical 2021 national annual output, not site supply, current mix or hourly carbon. Latest available non-null year in verified response.",
+      "definition": "Renewable electricity output as share of total electricity output",
+      "geographic_scope": "FIN",
+      "refresh_run_id": null,
+      "supersedes_id": null
+    },
+    {
+      "id": "WB-CAN-2021",
+      "country_id": "CAN",
+      "metric_name": "renewable_output_share",
+      "value": 67.0163805768966,
+      "unit": "%",
+      "period": "2021",
+      "source_id": "S6",
+      "retrieved_at": "2026-10-05T20:44:15.818995+00:00",
+      "limitation": "Historical 2021 national annual output, not site supply, current mix or hourly carbon. Latest available non-null year in verified response.",
+      "definition": "Renewable electricity output as share of total electricity output",
+      "geographic_scope": "CAN",
+      "refresh_run_id": null,
+      "supersedes_id": null
+    }
+  ],
+  "integration": "real network request"
+}

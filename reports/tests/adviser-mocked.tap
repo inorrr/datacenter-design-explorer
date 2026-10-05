@@ -1,0 +1,52 @@
+TAP version 13
+# Subtest: mocked provider: current revised PUE retrieved; actual fixture usage persisted
+ok 1 - mocked provider: current revised PUE retrieved; actual fixture usage persisted
+  ---
+  duration_ms: 13.411375
+  type: 'test'
+  ...
+# Subtest: mocked provider: untrusted injection kept as data and policy/tool boundaries enforced
+ok 2 - mocked provider: untrusted injection kept as data and policy/tool boundaries enforced
+  ---
+  duration_ms: 0.6455
+  type: 'test'
+  ...
+# Subtest: mocked provider: nonexistent citation corrected once; repeat invalid safely refused
+ok 3 - mocked provider: nonexistent citation corrected once; repeat invalid safely refused
+  ---
+  duration_ms: 1.57375
+  type: 'test'
+  ...
+# Subtest: mocked provider: arbitrary tool rejected, no writes from tools
+ok 4 - mocked provider: arbitrary tool rejected, no writes from tools
+  ---
+  duration_ms: 0.746791
+  type: 'test'
+  ...
+# Subtest: mocked provider: failed request usage unknown, never recorded as zero
+ok 5 - mocked provider: failed request usage unknown, never recorded as zero
+  ---
+  duration_ms: 0.627833
+  type: 'test'
+  ...
+# Subtest: mocked provider: rate limit and AI-disable block before fetch
+ok 6 - mocked provider: rate limit and AI-disable block before fetch
+  ---
+  duration_ms: 0.133916
+  type: 'test'
+  ...
+# Subtest: mocked provider: tool calls do not consume the single citation correction
+ok 7 - mocked provider: tool calls do not consume the single citation correction
+  ---
+  duration_ms: 1.908292
+  type: 'test'
+  ...
+1..7
+# tests 7
+# suites 0
+# pass 7
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 62.465125

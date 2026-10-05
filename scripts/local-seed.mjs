@@ -1,0 +1,7 @@
+import fs from 'node:fs';
+import {DEFAULTS,FIXED} from '../lib/shared/model.ts';
+const d=JSON.parse(fs.readFileSync('db/seed/evidence.json'));const q=(v)=>v===null?'NULL':typeof v==='number'?String(v):"'"+String(v).replaceAll("'","''")+"'";
+const insert=(table,x)=>`INSERT OR IGNORE INTO ${table} (${Object.keys(x).join(',')}) VALUES (${Object.values(x).map(q).join(',')});`;
+const now=new Date().toISOString(),inputs=JSON.stringify({...DEFAULTS,fixed:FIXED});const design={id:'baseline',team_id:'course-consortium',current_revision:1,it_load_mw:20,pue:1.25,cooling:'Closed-loop liquid / dry cooling concept',backup:'10-minute UPS; N+1 generation and critical shedding; fuel unknown',network:'Dual diverse carriers / training fabric',storage:'Parallel scratch / replicated archive; sizing TBD',summary:'No utility offer or committed demand',inputs_json:inputs,updated_at:now};
+fs.mkdirSync('.sites-runtime',{recursive:true});fs.writeFileSync('.sites-runtime/seed.sql',[...d.countries.map(x=>insert('countries',x)),...d.sources.map(x=>insert('sources',x)),insert('designs',design),...d.claims.map(x=>insert('design_claims',x)),...d.metrics.map(x=>insert('metrics',x)),insert('design_revisions',{id:'baseline:1',design_id:'baseline',revision:1,inputs_json:inputs,evidence_snapshot:JSON.stringify({claim_ids:d.claims.map(x=>x.id),metric_ids:d.metrics.map(x=>x.id)}),reason:'PRD seed',actor_id:null,created_at:now})].join('\n'));
+console.log('Prepared ignored local seed SQL; no credentials.');

@@ -1,0 +1,5 @@
+# Continuation contract
+Read docs/prd.md and docs/implementation-log.md first. PRD is implementation authority; assignment text is context. Standalone investment memo and presentation remain pending instructor confirmation. Never invent evidence, signed demand, utility offers, citations or investment verdicts. Keep all factual/assumption/calculation/design/unknown labels.
+Use supported Sites Vinext, D1 DB, SIWC headers and Sites publication. No passwords or secondary auth/database. Generated applied migrations are immutable. Use prepared statements, transactions/batches, same-team authorization and append-only revisions.
+Never log secrets, email, auth headers, raw questions/responses/provider bodies. Source seeds are agent reviewed; human verification requires a human reviewer.
+Commands: npm run db:generate; npx tsc --noEmit; npm test; python3 tests/schema.py; node scripts/integration-test.mjs; node <Sites plugin>/scripts/build-site.mjs. Run network/server commands with required sandbox approval. Publish via site-workflow and native Sites save/deploy. Recheck deployment and snapshot before claiming completion.

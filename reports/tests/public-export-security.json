@@ -1,0 +1,10 @@
+{
+  "at": "2026-10-05T21:42:28.484954+00:00",
+  "files_scanned": 177,
+  "actual_local_key_match_count": 0,
+  "credential_pattern_findings": 0,
+  "excluded_env_files": true,
+  "excluded_private_key_files": true,
+  "export": "fresh source snapshot; no prior Git history",
+  "note": "Known-key byte comparison and credential-pattern scan; not a guarantee against every possible secret format."
+}

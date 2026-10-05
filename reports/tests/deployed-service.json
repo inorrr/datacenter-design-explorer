@@ -1,0 +1,43 @@
+{
+  "at": "2026-10-05T21:33:04.877Z",
+  "environment": "Real deployed Sites Worker/D1; private platform service access supplies no human SIWC identity",
+  "deployment": "appgdep_6ac4174e44b481919e28f2fa216f63cf",
+  "commit": "698b1be5a5d16567f704d0637e03191fa6083721",
+  "origin": "https://datacenter-design-explorer.yinuozhao959.chatgpt.site",
+  "snapshot": "5afcbcdbde653c37341bfce66afcbe8fefaa1927daba06b50bb589a0d5a45423",
+  "revision": 3,
+  "tests": [
+    {
+      "name": "deployed Worker health through supported private service access",
+      "status": "pass"
+    },
+    {
+      "name": "service access is visitor, not a forged SIWC identity",
+      "status": "pass"
+    },
+    {
+      "name": "visitor adviser authorization precedes provider and DB retrieval",
+      "status": "pass"
+    },
+    {
+      "name": "forged identity headers cannot register via service credential",
+      "status": "pass"
+    },
+    {
+      "name": "deployed visitor mutations denied",
+      "status": "pass"
+    },
+    {
+      "name": "real deployed D1 seed/snapshot available",
+      "status": "pass"
+    },
+    {
+      "name": "real deployed calculation under one second, canonical unchanged",
+      "status": "pass"
+    },
+    {
+      "name": "deployed HTML does not cache obsolete client chunks",
+      "status": "pass"
+    }
+  ]
+}

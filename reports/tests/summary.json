@@ -1,0 +1,24 @@
+{
+  "as_of": "2026-10-05",
+  "unit_contract_tests": 14,
+  "mocked_adviser_contract_tests": 7,
+  "preview_route_tests": 13,
+  "local_admin_tests": 8,
+  "deployed_service_tests": 8,
+  "limitations": [
+    "Local SIWC is platform-supported simulation; real deployed SIWC verified separately",
+    "Local live-provider injection uses controlled evidence and mocked repository writes",
+    "Injection checks are bounded examples; citation identifier validation does not prove semantic entailment",
+    "At least three independent human source reviews remain required"
+  ],
+  "real_deployed_browser_checks": [
+    "SIWC login and persistent registration",
+    "allowlisted administrator bootstrap and seed",
+    "real World Bank refresh unchanged preserves retrieved date",
+    "new S10/C20 synchronization and superseded historical display",
+    "PUE 1.4 saved and retained across reload; restored 1.25 as revision 3",
+    "desktop/mobile viewport no document overflow"
+  ],
+  "real_deployed_adviser_checks": 3,
+  "real_local_provider_fixture_checks": 1
+}

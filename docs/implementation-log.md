@@ -1,0 +1,41 @@
+# Implementation log
+Current state: source implemented; preview/model verification underway. Model1.0.0, design revision1, agent-reviewed seed plus real World Bank 2021 observations. Live AI credential decision pending. No transcript file was supplied in workspace; PRD lecture anchors used, original PDF extracted/read. Human evidence review and real demo recording remain user/team steps. No presentation or memo generated.
+
+### 2026-10-05T20:50:27.083286+00:00 — Scope, setup, research and first build
+- Inspected two input files and Sites inventory; unrelated Bean There Boston preserved. Created separate explorer/ Site, D1 DB binding and supported Vinext scaffold.
+- Read PRD1.1 and assignment PDF extraction; research through primary CRU/Fingrid/Hydro-Québec/CSO/Statistics Finland pages. World Bank actual endpoint succeeded and yielded 2021 observations. No quote, utility offer or signed demand fabricated.
+- Added ten-table Drizzle schema and schema-only initial migration; immutable evidence seed separately. Roles derive from trusted dispatcher identity and persisted team records.
+- Added five pages, pure model, common workload/overflow, fixed hybrid schedule, both stresses, idle power, debt/unused-cost separation, record hashes, approved API refresh, protected adviser/tool/citation/usage boundaries.
+- First type-check found response JSON unknown types; corrected. Test execution initially used strip-only syntax unsupported for parameter properties; switched to Node transform-types. Fourteen model/contract tests pass; SQLite schema/seed check passes; production Worker build passes.
+- Local D1 first command used dist-relative state rather than preview root; corrected explicit --persist-to .wrangler/state. Preview D1 now returns three countries/three metrics. Real local API tests cover visitor/header spoof/mutation denial, bounded scenario, revision conflict, registration viewer/idempotency, role denial and unavailable adviser. Platform origin denial is plain text; report harness corrected to accept that response shape.
+- Secrets only hosted runtime; no OpenAI secret initially configured. Secure plugin enabled by user; key creation approval pending. Admin allowlist configured through secret runtime setting, never source.
+- Next: deployed verification, real SIWC journey, live adviser once securely configured, engineering diagrams/docs/reports.
+
+### 2026-10-05T20:58:00Z — Production and administrator verification
+- First deployment succeeded: 99ef3f7edde10eace7eae6296bdbee3057c75dc3 / appgdep_6ac40e28bb2c8191aa14a20347012e00. Owner-private Sites audience; no internet-public claim.
+- User completed real SIWC login. Registration persisted an allowlisted administrator. Admin-only seed action initialized D1 sources/claims/metrics/revision; read-only pages and scenarios rendered.
+- Deployed service suite: seven passing actual Worker/D1 tests, including identity-less service access, forged identity stripping, visitor adviser/mutation denial, real snapshot and PUE1.4 scenario (<1s observed). This does not simulate a signed-in human.
+- Local admin suite: eight passing actual route/DB checks with local simulated identity; canonical PUE revision, last-admin denial, stale revision, team target denial, source validation and real API unchanged-data refresh. One earlier real upstream failure preserved all observations/timestamps, separately observed. Local revisions restored baseline.
+- Corrected PUE-only revisions to preserve an unselected country, and operating electricity to use realized owned workload utilization at larger scales. Unit/type checks pass after changes; final republish pending.
+- Deployed desktop1440/mobile390 inspected; document width equals viewport; mobile navigation and labeled table scroll regions remain usable. Screenshots saved in reports/tests/.
+- Development test harness initially echoed private service credential on terminal stdin; input echo disabled for subsequent tests. No credential is in source/reports/frontend. No API key was exposed. Raw platform logs are not exported; only sanitized app metadata retained.
+
+- Final research check: added immutable S10/C20 for the CRU December 2025 final decision; retained consultation history and switched the country table to the final-policy record. Added administrator inventory synchronization for idempotent additions. No capacity offer inferred.
+
+- Browser post-deployment check found cached HTML referencing removed hashed client chunks (Worker asset errors). A fresh query loaded correctly. HTML responses now explicitly use Cache-Control: no-store; immutable hashed assets retain their normal caching.
+
+- 21:10 UTC: production signed-in administrator saved PUE 1.4 as revision 2, confirmed 1.4 after reload, restored PUE 1.25 in revision 3. S10/C20 retained and C5 shows superseded history. No OpenAI calls were made.
+
+- Final production verification: eight real Worker/D1/service-access checks pass, including forged identity refusal, refreshed final-policy records, unselected country, restored PUE 1.25, sub-second revised-PUE analysis, and no-store HTML. Final signed-in browser screenshot captured at revision 3. Local supplementary deployment reports document the final published commit; these post-publication artifacts are packaged separately from that committed source.
+
+- 2026-10-05T21:15:34.433417+00:00: user explicitly authorized rotation of exposed private Sites service-access token. Rotation completed using the Sites connector; replacement value was not printed, saved or committed. Platform notes the previous token may remain valid briefly.
+
+## Secure key and real integration follow-up
+2026-10-05T21:24:48.912381+00:00 — User approved secure new-key creation and local destination. OpenAI Developers created the key for Personal / Default project, saved to ignored .env.local. Key configured as a Sites secret and applied in environment revision 2. Exposed Sites service token rotated. Deployed adviser made one actual request and failed safely; direct API diagnostic returned HTTP 429 credit_balance_exhausted / insufficient_quota. Both returned no usage, so token counts remain null rather than invented zero. Successful live answers, citations and injection evaluation remain blocked until API credits are available. No secret included in source, logs or package.
+
+- Live credit-funded tests found invalid empty-source citations and an input-budget failure after duplicate tool context. Fixed citation enums, compacted evidence metadata, preserved failed model output for a correction, and separated the one-correction counter from tool rounds. Added a regression test. Real-provider controlled evidence/history injection and revised-PUE fixture now passes; historical failed attempts and actual usage retained.
+
+## Final credit-funded verification, 5 October 2026
+Credits restored. Final published source 698b1be5a5d16567f704d0637e03191fa6083721 / deployment appgdep_6ac4174e44b481919e28f2fa216f63cf / environment revision 2. Model 1.0.0, design r3, evidence hash 5afcbcdbde653c37341bfce66afcbe8fefaa1927daba06b50bb589a0d5a45423. Three real signed-in deployed adviser journeys pass: baseline formula/revision, final-policy citation, injection refusal with PUE1.4 calculation. One real-provider local controlled injection/revised-design fixture passes (mocked repository writes explicitly separated). Seven mocked adviser regressions and eight final deployed service checks pass. Historical failures are retained. Actual reported application/test tokens: 89794; two quota-rejected requests have unknown usage. The key and rotated service token are excluded from source/exports. Human review/video/personal explanation remain team actions; memo/deck remain pending confirmation.
+
+- Public delivery: user explicitly requested a public website and independent public GitHub repository. Website audience changed to public; server authorization remains required for adviser and writes. Fresh snapshot excludes credentials, local state, assignment PDF/verbatim context and raw duplicate provider outputs; known-key and credential-pattern scans found no matches.

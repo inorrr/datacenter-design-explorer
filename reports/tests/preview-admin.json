@@ -1,0 +1,38 @@
+{
+  "at": "2026-10-05T20:57:24.179Z",
+  "environment": "Real local D1 routes; supported preview identity promoted only in local test database",
+  "tests": [
+    {
+      "name": "local admin canonical PUE revision persists; old revision retained",
+      "status": "pass"
+    },
+    {
+      "name": "stale canonical revision rejected409",
+      "status": "pass"
+    },
+    {
+      "name": "last administrator removal rejected409",
+      "status": "pass"
+    },
+    {
+      "name": "same-team role lookup refuses nonexistent/cross-team target",
+      "status": "pass"
+    },
+    {
+      "name": "arbitrary external URL/adapter rejected400",
+      "status": "pass"
+    },
+    {
+      "name": "real preview World Bank refresh retains latest observation dates when unchanged",
+      "status": "pass"
+    },
+    {
+      "name": "invalid source linkage rejected400",
+      "status": "pass"
+    },
+    {
+      "name": "restore canonical PUE in a new immutable revision",
+      "status": "pass"
+    }
+  ]
+}

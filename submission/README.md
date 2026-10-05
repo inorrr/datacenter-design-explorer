@@ -1,0 +1,12 @@
+# Confirmed engineering package
+- Website/source/deployment references: reports/deployment.json.
+- Application architecture and physical system diagrams: system-diagram.pdf, architecture-diagram.pdf and editable SVG sources.
+- D1 schema/migrations: ../db/schema.ts and ../drizzle/; repeatable seed: ../db/seed/evidence.json.
+- Functional requirements/tests: ../docs/requirements-tests.md and ../reports/tests/.
+- External source/API inventory and provenance: ../docs/data-sources.md and ../reports/refresh/.
+- Initial design, assumptions and model: website/design and ../docs/model.md.
+- Sanitized usage: ../reports/usage/summary.json.
+- Two-minute real demonstration: demo-shot-list.md supplied; demo-video.mp4 requires actual team recording.
+- Individual request explanation: request-walkthrough.md supplied; team members must personalize with accurate contributions.
+- Pending instructor confirmation: standalone five-minute investment presentation and two-page investment memo. Not generated; absence does not block website work.
+- Human review: at least three sources must be reviewed by team, not silently relabeled from agent research.
