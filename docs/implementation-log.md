@@ -75,3 +75,6 @@ Published version 13: all five public pages verified with no alerts or developme
 
 ### 2026-10-05 — Recommendation column proportions
 Narrowed the overview recommendation disclaimer column to 240 px on desktop; the main recommendation takes the remaining space. Existing single-column tablet/mobile layout and all content remain intact. CSS-only change; no model, data or API changes.
+
+### 2026-10-05 — Recommendation caution banner
+Replaced the separate disclaimer column with a compact muted note at the bottom of the recommendation card. Recommendation content now spans the card; full caution text preserved. CSS-only layout change.
