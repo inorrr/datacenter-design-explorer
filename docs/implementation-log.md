@@ -102,3 +102,7 @@ Human-verified sources display a separate status tag, with review suffix removed
 
 ### Short source references
 Reviewed source copies display original S4/S28/S29 references from their recorded review relationship rather than UUIDs. Source heading, evidence links and adviser citation labels use consistent display helpers. Unknown custom sources use Source rather than an invented numbered reference. Internal record identity and citation validation unchanged.
+
+
+### Solo individual explanation
+Updated request walkthrough to a finished solo-project explanation at owner request, accurately acknowledging Codex assistance and personally confirmed source review. Removed contribution placeholder. No runtime change or AI API call.
