@@ -1,8 +1,12 @@
-# Human source review required by the assignment
-Agent research is already linked and labeled. Please have a team member open at least three source pages, compare the source's actual wording/date/scope with the displayed claim, and record reviewer/date and any corrections. Do not approve current policy status from a historical proposal.
+# Human source review — practical steps
+The assignment requires at least three human-verified source records. Agent-reviewed records do not count.
 
-1. S2 Fingrid grid update, 26 September 2025: validate southern consumption vs storage restrictions; do not infer site readiness from storage capacity.
-2. S3 Hydro-Québec proposal, 19 February 2026: validate >5MW selection and proposal status; no claim that CAD .13/kWh is a currently approved delivered tariff.
-3. S4 CSO historical2024 share: validate22% of metered electricity; not a facility count or current2026 statistic.
+1. Sign in with an editor or administrator account and open Evidence. Pick three existing primary sources, for example S28 (JLL construction benchmark), S29 (Exxact GPU-server configuration), and S4 (CSO historical electricity share).
+2. Open each original source yourself. Check its publisher, date, units, geography, scope and the exact passage/table supporting the website's claim. Write the page/section and any mismatch. If a live price changed, record your observation date and the new price; do not silently approve the old value.
+3. For S28, check that the benchmark excludes land and active IT and that the liquid-cooling premium is a separate input. The USD12.43m/MW figure is our calculation, not a quoted site offer. For S29, verify the eight-GPU complete-server configuration; dividing total price by eight allocates server cost per GPU, not a bare-chip price. For S4, verify the reporting year and denominator; it is a national metered-electricity share, not site capacity.
+4. In Evidence, expand Manage sources and assumptions → Add a source, metric or claim. Select Source. Copy the original publisher/title/HTTPS URL/geographic scope, include publication date where available, and document limitations. In Reason, record “Human review of S28: checked page/section …; supports …; limitations/corrections …”. Repeat for each reviewed source.
+5. Click Add evidence only after you have personally checked it. The backend creates a new source record marked human_verified and records your authenticated user ID and current timestamp. It preserves the existing source; this is not an in-place approval button. Record each new ID as well as the original ID in your review notes.
+6. If a claim or measure needs correction, add a corrected record referencing the new reviewed source and superseding the old record. Do not delete history or invent confirmation. If you cannot find support, record the gap instead of marking it verified.
+7. Reload Evidence to confirm the three reviewed records persist. Retain the review notes for submission. Human verification establishes that a source supports a statement; it does not establish a supplier commitment or engineering approval.
 
-Record verified source copies through Evidence maintenance using the actual reviewer account, a reason, date, and limitations. Canonical source IDs are kept for provenance; use reviewed copies in subsequent claims. The minimum is not fulfilled by calling agent-reviewed sources human-verified.
+Suggested notes table: original source ID | new reviewed ID | reviewer | review date | page/section | statement checked | result/correction | limitations.
