@@ -48,3 +48,7 @@ Research model suite: 18 model + 4 contracts, 8 mocked-provider adviser tests, S
 
 ## Final researched publication verification
 Final model 1.3.0: 22 model/contracts and 10 mocked adviser tests pass; schema/seed fixture passes; 13 real preview checks (SIWC simulated) and 9 exact-source deployed checks pass. Real public access/persistence and two final live adviser checks pass: researched conditional preference, citation grounding, unconfirmed Québec proposal and malicious instruction rejection. Failed integration attempts remain recorded with actual usage, followed by verified fixes. See research-public-persistence.json, research-live-adviser.json and research-adviser-preview.json.
+
+
+### 2026-10-05 — User-facing presentation cleanup
+Removed development metadata, revision/hash identifiers, audit/refresh history, token-usage tables and change announcements from the website. Evidence displays current statements and latest measures; historical records and audit logging remain intact internally. Source dates, citations, assumptions and uncertainty remain visible because they support decisions. Editing controls are collapsed and use labeled fields rather than raw JSON. All five pages reviewed in preview; deterministic/authorization suite (22), mocked adviser suite (10) and SQLite schema fixture pass. No new OpenAI requests made. Published UI verification is recorded separately in reports/tests/user-facing-ui.json.

@@ -19,5 +19,13 @@
   "evidence_snapshot": "a582573c0a6ed896d0db46958c84c545d2192e5766f0ee4ebf0801aad8d234ed",
   "openai_configured": true,
   "verification": "reports/tests/deployed-service.json",
-  "published_source_note": "Post-publication verification and documentation supplement the exact deployed application source."
+  "published_source_note": "Post-publication verification and documentation supplement the exact deployed application source.",
+  "user_facing_cleanup": {
+    "version": 13,
+    "source_commit": "28ac5f3f257f16225d144fa3e430c3fd94e95a34",
+    "deployment_id": "appgdep_6ac4616241208191b314e7a8e7d2ff22",
+    "status": "succeeded",
+    "verification": "reports/tests/user-facing-ui.json",
+    "model_changed": false
+  }
 }

@@ -1,0 +1,84 @@
+{
+  "at": "2026-10-06T02:49:01.433Z",
+  "preview": [
+    {
+      "route": "countries",
+      "forbiddenMatches": [],
+      "headings": [
+        "Same framework, three locations",
+        "Historical renewable output share",
+        "How to interpret the country screening"
+      ]
+    },
+    {
+      "route": "design",
+      "forbiddenMatches": [],
+      "headings": [
+        "Physical system concept",
+        "Demand to capacity",
+        "Failure paths",
+        "Delivery, ownership and governance"
+      ]
+    },
+    {
+      "route": "evidence",
+      "forbiddenMatches": [],
+      "headings": [
+        "Claims and provenance",
+        "Sources",
+        "Data used in the comparison"
+      ]
+    },
+    {
+      "route": "adviser",
+      "forbiddenMatches": [],
+      "headings": [
+        "Ask about the evidence, design or calculations"
+      ]
+    }
+  ],
+  "deployed": [
+    {
+      "route": "overview",
+      "loaded": true,
+      "forbiddenMatches": [],
+      "alerts": []
+    },
+    {
+      "route": "countries",
+      "loaded": true,
+      "forbiddenMatches": [],
+      "alerts": []
+    },
+    {
+      "route": "design",
+      "loaded": true,
+      "forbiddenMatches": [],
+      "alerts": []
+    },
+    {
+      "route": "evidence",
+      "loaded": true,
+      "forbiddenMatches": [],
+      "alerts": []
+    },
+    {
+      "route": "adviser",
+      "loaded": true,
+      "forbiddenMatches": [],
+      "alerts": []
+    }
+  ],
+  "scenario": {
+    "pue": 1.4,
+    "energyGWh": 245.28,
+    "resetPue": 1.25,
+    "resetEnergyGWh": 219
+  },
+  "mobile": {
+    "documentWidth": 390,
+    "viewport": 390
+  },
+  "aiProviderCalls": 0,
+  "authenticatedEditorUi": "Not exercised in this cleanup; public page review and existing authorization contract tests passed."
+}

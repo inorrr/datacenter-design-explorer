@@ -1,0 +1,221 @@
+
+> site-creator-vinext-starter@0.1.0 test
+> node scripts/test-adviser.mjs && node --experimental-transform-types --test tests/model.test.mjs tests/contracts.test.mjs && python3 tests/schema.py
+
+TAP version 13
+# Subtest: mocked provider: current revised PUE retrieved; actual fixture usage persisted
+ok 1 - mocked provider: current revised PUE retrieved; actual fixture usage persisted
+  ---
+  duration_ms: 14.795625
+  type: 'test'
+  ...
+# Subtest: mocked provider: untrusted injection kept as data and policy/tool boundaries enforced
+ok 2 - mocked provider: untrusted injection kept as data and policy/tool boundaries enforced
+  ---
+  duration_ms: 1.839916
+  type: 'test'
+  ...
+# Subtest: mocked provider: nonexistent citation corrected once; repeat invalid safely refused
+ok 3 - mocked provider: nonexistent citation corrected once; repeat invalid safely refused
+  ---
+  duration_ms: 1.925417
+  type: 'test'
+  ...
+# Subtest: mocked provider: arbitrary tool rejected, no writes from tools
+ok 4 - mocked provider: arbitrary tool rejected, no writes from tools
+  ---
+  duration_ms: 1.331833
+  type: 'test'
+  ...
+# Subtest: mocked provider: failed request usage unknown, never recorded as zero
+ok 5 - mocked provider: failed request usage unknown, never recorded as zero
+  ---
+  duration_ms: 1.275875
+  type: 'test'
+  ...
+# Subtest: mocked provider: rate limit and AI-disable block before fetch
+ok 6 - mocked provider: rate limit and AI-disable block before fetch
+  ---
+  duration_ms: 0.125959
+  type: 'test'
+  ...
+# Subtest: mocked provider: tool calls do not consume the single citation correction
+ok 7 - mocked provider: tool calls do not consume the single citation correction
+  ---
+  duration_ms: 2.508792
+  type: 'test'
+  ...
+# Subtest: mocked adviser receives conditional preference and separate approval requirements
+ok 8 - mocked adviser receives conditional preference and separate approval requirements
+  ---
+  duration_ms: 1.782833
+  type: 'test'
+  ...
+# Subtest: mocked full research inventory stays bounded and excludes superseded claims
+ok 9 - mocked full research inventory stays bounded and excludes superseded claims
+  ---
+  duration_ms: 2.448584
+  type: 'test'
+  ...
+# Subtest: mocked five parallel tools fit full research context and preserve evidence data
+ok 10 - mocked five parallel tools fit full research context and preserve evidence data
+  ---
+  duration_ms: 3.044833
+  type: 'test'
+  ...
+1..10
+# tests 10
+# suites 0
+# pass 10
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 80.175834
+TAP version 13
+# (node:59008) ExperimentalWarning: Transform Types is an experimental feature and might change at any time
+# (Use `node --trace-warnings ...` to show where the warning was created)
+# Subtest: authorization matrix: visitor, unregistered, viewer, editor, admin and foreign team
+ok 1 - authorization matrix: visitor, unregistered, viewer, editor, admin and foreign team
+  ---
+  duration_ms: 0.686167
+  type: 'test'
+  ...
+# Subtest: genuine recorded API response validates exactly three latest historical observations
+ok 2 - genuine recorded API response validates exactly three latest historical observations
+  ---
+  duration_ms: 0.83725
+  type: 'test'
+  ...
+# Subtest: malformed and missing-country API responses reject before persistence
+ok 3 - malformed and missing-country API responses reject before persistence
+  ---
+  duration_ms: 0.1575
+  type: 'test'
+  ...
+# Subtest: citations require retrieved source and supporting linked claim
+ok 4 - citations require retrieved source and supporting linked claim
+  ---
+  duration_ms: 0.207958
+  type: 'test'
+  ...
+# (node:59009) ExperimentalWarning: Transform Types is an experimental feature and might change at any time
+# (Use `node --trace-warnings ...` to show where the warning was created)
+# Subtest: assignment exact nameplate energy and revised PUE
+ok 5 - assignment exact nameplate energy and revised PUE
+  ---
+  duration_ms: 0.950125
+  type: 'test'
+  ...
+# Subtest: reject invalid values and bounded steps
+ok 6 - reject invalid values and bounded steps
+  ---
+  duration_ms: 0.27725
+  type: 'test'
+  ...
+# Subtest: all alternatives deliver same fixed demand at small and large scale
+ok 7 - all alternatives deliver same fixed demand at small and large scale
+  ---
+  duration_ms: 1.997459
+  type: 'test'
+  ...
+# Subtest: delay moves owned commissioning, preserves demand and adds bridge/carrying
+ok 8 - delay moves owned commissioning, preserves demand and adds bridge/carrying
+  ---
+  duration_ms: 0.243791
+  type: 'test'
+  ...
+# Subtest: half demand preserves capital/fleet/staff and does not halve energy
+ok 9 - half demand preserves capital/fleet/staff and does not halve energy
+  ---
+  duration_ms: 0.5735
+  type: 'test'
+  ...
+# Subtest: tranche replacements follow age; year-4 expansion no duplicate fleet
+ok 10 - tranche replacements follow age; year-4 expansion no duplicate fleet
+  ---
+  duration_ms: 0.127584
+  type: 'test'
+  ...
+# Subtest: financing principal and unused allocation not double-counted
+ok 11 - financing principal and unused allocation not double-counted
+  ---
+  duration_ms: 0.277292
+  type: 'test'
+  ...
+# Subtest: zero demand gives unavailable unit metrics
+ok 12 - zero demand gives unavailable unit metrics
+  ---
+  duration_ms: 0.138958
+  type: 'test'
+  ...
+# Subtest: approval gaps do not suppress conditional screening; exact ties stay unresolved
+ok 13 - approval gaps do not suppress conditional screening; exact ties stay unresolved
+  ---
+  duration_ms: 0.411917
+  type: 'test'
+  ...
+# Subtest: deterministic reproducibility and complete sensitivity sweep
+ok 14 - deterministic reproducibility and complete sensitivity sweep
+  ---
+  duration_ms: 21.98075
+  type: 'test'
+  ...
+# Subtest: required cases derive preference from costs with approval separately gated
+ok 15 - required cases derive preference from costs with approval separately gated
+  ---
+  duration_ms: 0.420541
+  type: 'test'
+  ...
+# Subtest: bounded GPU cost scenario changes researched preference without granting approval
+ok 16 - bounded GPU cost scenario changes researched preference without granting approval
+  ---
+  duration_ms: 6.586458
+  type: 'test'
+  ...
+# Subtest: invalid costs, zero demand, missing delivery and unequal workload remain unresolved
+ok 17 - invalid costs, zero demand, missing delivery and unequal workload remain unresolved
+  ---
+  duration_ms: 0.146125
+  type: 'test'
+  ...
+# Subtest: overall screening covers nine alternatives and remains conditional across stress
+ok 18 - overall screening covers nine alternatives and remains conditional across stress
+  ---
+  duration_ms: 0.918458
+  type: 'test'
+  ...
+# Subtest: lease break-even frontier matches full model across countries and stress cases
+ok 19 - lease break-even frontier matches full model across countries and stress cases
+  ---
+  duration_ms: 3.592917
+  type: 'test'
+  ...
+# Subtest: rental price reverses preferences without changing demand or granting approval
+ok 20 - rental price reverses preferences without changing demand or granting approval
+  ---
+  duration_ms: 0.186375
+  type: 'test'
+  ...
+# Subtest: researched currency conversions, distinct regional pricing and billed-hour accounting
+ok 21 - researched currency conversions, distinct regional pricing and billed-hour accounting
+  ---
+  duration_ms: 0.9785
+  type: 'test'
+  ...
+# Subtest: researched cases show derived country differences and keep a common workload
+ok 22 - researched cases show derived country differences and keep a common workload
+  ---
+  duration_ms: 0.538167
+  type: 'test'
+  ...
+1..22
+# tests 22
+# suites 0
+# pass 22
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 127.620459
+PASS: schema migration, foreign keys, repeatable seed, versioned researched metrics and API observations. SQLite fixture, not production D1 integration.
