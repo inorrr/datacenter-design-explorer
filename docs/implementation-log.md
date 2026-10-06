@@ -114,3 +114,7 @@ Added GitHub repository and Engineering evidence buttons to the shared footer on
 
 ### Recorded demonstration submitted
 Owner supplied recording https://youtu.be/wRD0rWTD5w8. Linked from submission README, video reference file and recording guide; submission status updated. Web fetch was unavailable, so no independent content/duration/access claim is made. No application change or AI API request.
+
+
+### Dedicated video button
+Added Watch demo video button alongside shared footer repository/evidence links, opening the owner-supplied YouTube recording in a new tab. No model or data changes.
