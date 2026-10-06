@@ -2,3 +2,5 @@
 .cost-bar{margin:15px 0;font-size:14px}.cost-bar div{height:12px;background:#277999;margin-top:6px;border-radius:2px}.mix-bar{height:24px;border-radius:4px}
 
 .source-heading{display:flex;align-items:baseline;gap:12px;flex-wrap:wrap}.source-heading h3{margin:5px 0}.verification-tag{display:inline-block;border:1px solid #b4d8ca;border-radius:999px;background:#edf7f1;color:#28634c;padding:3px 9px;font-size:12px;font-weight:600;white-space:nowrap}
+
+.submission-links{margin-bottom:16px}.submission-links .button{font-size:14px}

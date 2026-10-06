@@ -106,3 +106,7 @@ Reviewed source copies display original S4/S28/S29 references from their recorde
 
 ### Solo individual explanation
 Updated request walkthrough to a finished solo-project explanation at owner request, accurately acknowledging Codex assistance and personally confirmed source review. Removed contribution placeholder. No runtime change or AI API call.
+
+
+### Public submission links
+Added GitHub repository and Engineering evidence buttons to the shared footer on every page. Links open the public repository and submission subdirectory; no authentication or model changes.

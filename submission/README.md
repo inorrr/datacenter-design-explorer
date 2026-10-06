@@ -1,17 +1,16 @@
-# Confirmed engineering package
-- Website/source/deployment references: reports/deployment.json.
-- Application architecture and physical system diagrams: system-diagram.pdf, architecture-diagram.pdf and editable SVG sources.
-- D1 schema/migrations: ../db/schema.ts and ../drizzle/; repeatable seed: ../db/seed/evidence.json.
-- Functional requirements/tests: ../docs/requirements-tests.md and ../reports/tests/.
-- External source/API inventory and provenance: ../docs/data-sources.md and ../reports/refresh/.
-- Initial design, assumptions and model: website/design and ../docs/model.md.
-- Sanitized usage: ../reports/usage/summary.json.
-- Two-minute real demonstration: demo-shot-list.md supplied; demo-video.mp4 requires actual team recording.
-- Individual request explanation: request-walkthrough.md supplied; team members must personalize with accurate contributions.
-- Pending instructor confirmation: standalone five-minute investment presentation and two-page investment memo. Not generated; absence does not block website work.
-- Human review: at least three sources must be reviewed by team, not silently relabeled from agent research.
+# Engineering evidence
 
+- [Published website](https://datacenter-design-explorer.yinuozhao959.chatgpt.site)
+- [Application architecture diagram](architecture-diagram.pdf) · [editable SVG](architecture-diagram.svg)
+- [Initial datacenter system diagram](system-diagram.pdf) · [editable SVG](system-diagram.svg) · [live design](https://datacenter-design-explorer.yinuozhao959.chatgpt.site/design)
+- [D1 schema](../db/schema.ts) · [database migrations](../drizzle/) · [seed evidence](../db/seed/evidence.json)
+- [Sources and external APIs](../docs/data-sources.md) · [country pricing research](../docs/country-research.md) · [ownership research](../docs/ownership-research.md)
+- [Functional requirements and validation](../docs/requirements-tests.md)
+- [Test results](../reports/tests/) · [architecture and API contracts](../docs/architecture-api.md)
+- [Model assumptions](../docs/model.md) · [sanitized usage summary](../reports/usage/summary.json)
+- [Two-minute demonstration script](demo-shot-list.md): actual recording remains required.
+- [Individual request explanation](request-walkthrough.md): finalized for the solo project.
+- [Human source review evidence](../reports/research/human-source-reviews.json): owner-confirmed S4, S28 and S29 reviews persisted in deployed D1.
+- [Submission status](submission-status.md)
 
-Research update: include docs/country-research.md, db/seed/pricing.json and reports/research/ with the current engineering package. Source review/video/individual explanation remain human tasks; standalone investment memo/deck remain pending confirmation.
-
-Ownership research: docs/ownership-research.md, data-only migration 0001_ownership_research.sql, reports/research/ownership-source-verification.json and ownership test/UI/provider reports. Model uses public ownership benchmarks and fifteen fixed robustness scenarios. This does not replace source review, a real recording or individual contribution explanations.
+The standalone five-minute investment presentation and two-page investment memo remain pending instructor confirmation under PRD v1.1.
