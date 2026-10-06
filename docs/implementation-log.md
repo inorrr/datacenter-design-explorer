@@ -94,3 +94,7 @@ User confirmed PS3 URL and engineering package submitted. Refreshed human review
 
 ### Owner-confirmed human reviews
 Owner personally verified S4/S28/S29 and authorized human_verified recording. Three reviewed source copies were added through the real signed-in admin form, preserving original evidence and limitations. Public live snapshot and reload confirm persistence. Sanitized report excludes account identifiers. No AI call or model change.
+
+
+### Human review presentation
+Human-verified sources display a separate status tag, with review suffix removed from the displayed title. Stored titles and original evidence are preserved for audit history; no model, identity, or source verification mutation.
