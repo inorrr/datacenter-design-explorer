@@ -1,0 +1,12 @@
+{
+  "model_version": "1.2.0",
+  "model_contract_tests": 20,
+  "mocked_adviser_tests": 8,
+  "schema_fixture": "passed",
+  "typecheck_build": "passed",
+  "real_deployed_api": "passed",
+  "preview_and_deployed_ui": "passed",
+  "new_provider_calls": 0,
+  "assumptions_changed": false,
+  "note": "Rental-price frontier checked against complete model across all countries and required cases; HYBRID and BUILD reversals verified. Source assumptions remain unverified."
+}

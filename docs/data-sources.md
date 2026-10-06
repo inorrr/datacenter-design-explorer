@@ -18,3 +18,7 @@ Freshness: historical annual output is marked historical by reporting year, not 
 ## Final-policy update, 5 October 2026
 S10 / C20 records the CRU final decision announcement of 12 December 2025. It supersedes the unresolved policy status in historical C5 while retaining that record. The 80% additional-renewables requirement is annual and has a six-year glide path; it does not establish hourly matching or a site connection offer. Source: https://www.cru.ie/about-us/news/the-cru-publishes-its-decision-on-new-electricity-connection-policy-for-data-centres/
 World Bank default data licensing checked at https://datacatalog.worldbank.org/public-licenses?fragment=cc ; CC BY 4.0 by default, with dataset-specific exceptions. National indicator metadata and upstream attribution remain necessary.
+
+
+## Research inventory update
+S11–S27, C21–C34 and six metrics add regional rental benchmarks, electricity proxies, FX, current Finland tax/grid policy and privacy/latency boundaries. See country-research.md; historic same-price defaults are superseded, not silently relabeled as factual. World Bank runtime refresh remains unchanged.

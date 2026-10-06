@@ -47,9 +47,6 @@ next-env.d.ts
 
 *.tsbuildinfo
 
-# Server credentials and local secret stores
 .dev.vars*
 *.key
-*.p12
-.secrets*
 !.env.example

@@ -2,11 +2,11 @@
 Course decision-support application implementing PRD 1.1 for Ireland, Finland and Canada. Five routes, versioned D1 evidence/design, Sites Sign in with ChatGPT, viewer/editor/admin roles, deterministic 10-year scenarios, approved World Bank refresh, protected grounded OpenAI adviser.
 
 ## Current status
-See docs/implementation-log.md and docs/requirements-tests.md for observed results and outstanding gates. No datacenter Site existed; the existing Bean There Boston Site is an unrelated product and was preserved. A separate Site was registered. The investment verdict is INSUFFICIENT EVIDENCE; cost/demand/tariffs are explicit illustrative assumptions. No site or signed commitment is invented.
+See docs/implementation-log.md and docs/requirements-tests.md for observed results and outstanding gates. No datacenter Site existed; the existing Bean There Boston Site is an unrelated product and was preserved. A separate Site was registered. Model 1.3.0 provides a conditional Finland–HYBRID screening preference using researched country pricing. Site approval and signed demand remain unconfirmed. See docs/country-research.md for source values and comparability limits. No site or signed commitment is invented.
 
 ## Setup
 Node >=22.13.0. `npm ci` (or supported Sites installer), `npm run db:generate`, `npx tsc --noEmit`, `npm run dev -- --host 127.0.0.1`.
-D1 logical binding `DB` is in `.openai/hosting.json`. Production migrations in `drizzle/` are applied by Sites publish. Seed separately with admin POST `/api/seed`; it is idempotent and does not change existing records. Registration can precede seed; an allowlisted authenticated administrator initializes data.
+D1 logical binding `DB` is in `.openai/hosting.json`. Production migrations in `drizzle/` are applied by Sites publish. Seed separately with admin POST `/api/seed`; it is idempotent by evidence keys, preserves historical records and appends a canonical pricing revision when the researched pricing version changes, preserving existing controls/selection. Registration can precede seed; an allowlisted authenticated administrator initializes data.
 Local: build once for Wrangler configuration, then `node --experimental-strip-types scripts/local-seed.mjs`; `npx wrangler d1 execute DB --local --config dist/server/wrangler.json --persist-to .wrangler/state --file drizzle/0000_unknown_argent.sql`; repeat command with `.sites-runtime/seed.sql`. Local Sites sign-in is explicitly simulated with `seedy@sites.test`; never deploy a header bypass.
 
 ## Verify

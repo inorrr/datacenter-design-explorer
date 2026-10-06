@@ -3,7 +3,7 @@ const origin=process.env.TEST_ORIGIN||'http://127.0.0.1:5173';const tests=[];
 async function call(path,method='GET',data,headers={}){const start=Date.now();const r=await fetch(origin+'/api/'+path,{method,headers:{'Content-Type':'application/json',...headers},body:data===undefined?undefined:JSON.stringify(data)});return {status:r.status,body:await r.text().then(t=>{try{return JSON.parse(t)}catch{return {platform_error:t}}}),ms:Date.now()-start};}
 async function check(name,fn){try{await fn();tests.push({name,status:'pass'})}catch(e){tests.push({name,status:'fail',message:e.message})}}
 let cookie;
-await check('real preview D1 read persists seeded evidence',async()=>{const a=await call('snapshot'),b=await call('snapshot');assert.equal(a.status,200);assert.equal(a.body.data.metrics.length,3);assert.equal(a.body.data.hash,b.body.data.hash)});
+await check('real preview D1 read persists seeded evidence',async()=>{const a=await call('snapshot'),b=await call('snapshot');assert.equal(a.status,200);assert.equal(a.body.data.metrics.length,9);assert.equal(a.body.data.hash,b.body.data.hash)});
 await check('visitor adviser rejected 401',async()=>assert.equal((await call('adviser','POST',{question:'PUE?'})).status,401));
 await check('forged client identity stripped by preview middleware',async()=>assert.equal((await call('adviser','POST',{question:'PUE?'},{'oai-authenticated-user-id':'fake','oai-authenticated-user-email':'fake@example.test'})).status,401));
 await check('visitor mutation rejected 401',async()=>assert.equal((await call('design','PATCH',{expected_revision:1,reason:'Test revision',inputs:{pue:1.4}})).status,401));

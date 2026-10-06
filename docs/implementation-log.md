@@ -52,3 +52,15 @@ At user request, moved dynamic energy cards beneath the what-if controls into ca
 
 ### Recommendation logic audit — model 1.2.0
 User questioned repeated lease preference. Reviewed economics against PRD workload, stress, financing and fixed-hybrid conventions. Kept required inputs unchanged; no forced winners. Added rental-price break-even frontier to each deterministic result and adviser context, applying price to every strategy's leased bridge/overflow. Added full-model validation across all countries/cases and explicit HYBRID/BUILD reversal tests. UI exposes common rental price, cancellability and country proxy limitations; top conclusion now says modeled preference. No provider calls or evidence changes required for this model audit.
+
+
+## Country research and model 1.3.0
+2026-10-06T02:20:31.587024+00:00: User authorized necessary research and website update. Verified primary Eurostat, Bank of Canada, Finnish Tax Administration/Fingrid, Hydro-Québec/Regie, AWS/Azure/Nebius, DPC/OPC and OVHcloud records. Added original-currency/FX and provider/hardware distinctions. Preserved Québec proposal status, site/demand gaps and human-review boundary. Replaced shared prices with regional benchmarks; documented 95% productive rental conversion and retained 10% allowance. Default result now FIN–HYBRID, with stress changes computed from costs. Initial regression used a facility-cost reversal that did not occur; replaced with observed bounded GPU-cost reversal. Preview initially had old seed metrics; synchronized through admin API and restored local viewer fixture, then all 13 checks passed. No production data or provider usage claimed before publication.
+
+Publication verification found a real adviser context-budget failure after five parallel read-only tool calls against the expanded inventory (reported usage 7,487 tokens, not a mock). Kept the context limit intact and compacted duplicate canonical/tool payloads instead of hiding the failure or raising the budget. Retest and republication follow; failed usage is retained.
+
+The second real adviser test exceeded the five-tool cap while requesting additional details already supplied. Configured sequential provider tool calls and explicit tool choice none after the cap, while preserving the five-tool and input limits. Instructions now favor answering from freshly retrieved records. This closes the final-answer path without permitting extra tools.
+
+
+## Final researched publication verification
+2026-10-06T02:34:44.170655+00:00: Final source 3daa8f375a41c192de96f3edd67de26e5872c2f5 publicly published and verified. Admin synchronized research to canonical r4; repeat synchronization kept r4, controls/PUE and approved-country null unchanged. Actual final adviser explained Finland–HYBRID, $2.62m/0.15% gap, hardware limits and proposal status; malicious citation/approval/PUE instructions were rejected. New research/provider checks consumed 70,185 reported tokens including both failed deployed attempts; total historical reported usage 185,045. No secrets or raw questions/answers exported. GitHub and package synchronization follows.

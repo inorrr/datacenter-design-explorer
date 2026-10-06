@@ -12,6 +12,6 @@ for _ in range(2):
  for x in d['claims']:insert('design_claims',x)
  for x in d['metrics']:insert('metrics',x)
 assert c.execute('SELECT COUNT(*) FROM sources').fetchone()[0]==len(d['sources'])
-assert c.execute('SELECT COUNT(*) FROM metrics').fetchone()[0]==3
+assert c.execute('SELECT COUNT(*) FROM metrics').fetchone()[0]==len(d['metrics'])
 assert not c.execute('PRAGMA foreign_key_check').fetchall()
-print('PASS: schema migration, foreign keys, repeatable seed, three real API observations. SQLite fixture, not production D1 integration.')
+print('PASS: schema migration, foreign keys, repeatable seed, versioned researched metrics and API observations. SQLite fixture, not production D1 integration.')

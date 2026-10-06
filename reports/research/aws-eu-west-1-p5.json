@@ -1,0 +1,26 @@
+{
+  "endpoint": "https://pricing.us-east-1.amazonaws.com/offers/v1.0/aws/AmazonEC2/current/eu-west-1/index.csv",
+  "metadata": [
+    [
+      "FormatVersion",
+      "v1.0"
+    ],
+    [
+      "Disclaimer",
+      "This pricing list is for informational purposes only. All prices are subject to the additional terms included in the pricing pages on http://aws.amazon.com. All Free Tier prices are also subject to the terms included at https://aws.amazon.com/free/"
+    ],
+    [
+      "Publication Date",
+      "2026-09-25T17:45:21Z"
+    ],
+    [
+      "Version",
+      "20260925174521"
+    ],
+    [
+      "OfferCode",
+      "AmazonEC2"
+    ]
+  ],
+  "rows": []
+}

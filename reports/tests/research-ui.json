@@ -1,0 +1,17 @@
+{
+  "at": "2026-10-06T02:35:41.580791+00:00",
+  "environment": "Real deployed administrator browser; desktop/default and 390px viewport",
+  "checks": {
+    "distinctCountryPricesVisible": true,
+    "countryChangeIrelandBuildKeepsOverallFinlandHybrid": true,
+    "pue14AfterEvaluationGives28Mw24528Gwh": true,
+    "resetRestoresBaseline": true,
+    "mobileDocumentWidth390": true,
+    "labeledScrollableTables": true,
+    "snapshotR4Retained": true
+  },
+  "screenshots": [
+    "researched-overview.png",
+    "research-country-mobile.png"
+  ]
+}

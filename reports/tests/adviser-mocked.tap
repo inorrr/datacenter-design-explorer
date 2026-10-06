@@ -2,57 +2,69 @@ TAP version 13
 # Subtest: mocked provider: current revised PUE retrieved; actual fixture usage persisted
 ok 1 - mocked provider: current revised PUE retrieved; actual fixture usage persisted
   ---
-  duration_ms: 13.505625
+  duration_ms: 15.994458
   type: 'test'
   ...
 # Subtest: mocked provider: untrusted injection kept as data and policy/tool boundaries enforced
 ok 2 - mocked provider: untrusted injection kept as data and policy/tool boundaries enforced
   ---
-  duration_ms: 0.674
+  duration_ms: 1.814292
   type: 'test'
   ...
 # Subtest: mocked provider: nonexistent citation corrected once; repeat invalid safely refused
 ok 3 - mocked provider: nonexistent citation corrected once; repeat invalid safely refused
   ---
-  duration_ms: 1.607666
+  duration_ms: 1.811625
   type: 'test'
   ...
 # Subtest: mocked provider: arbitrary tool rejected, no writes from tools
 ok 4 - mocked provider: arbitrary tool rejected, no writes from tools
   ---
-  duration_ms: 0.781584
+  duration_ms: 1.31
   type: 'test'
   ...
 # Subtest: mocked provider: failed request usage unknown, never recorded as zero
 ok 5 - mocked provider: failed request usage unknown, never recorded as zero
   ---
-  duration_ms: 0.66825
+  duration_ms: 1.257834
   type: 'test'
   ...
 # Subtest: mocked provider: rate limit and AI-disable block before fetch
 ok 6 - mocked provider: rate limit and AI-disable block before fetch
   ---
-  duration_ms: 0.1365
+  duration_ms: 0.123709
   type: 'test'
   ...
 # Subtest: mocked provider: tool calls do not consume the single citation correction
 ok 7 - mocked provider: tool calls do not consume the single citation correction
   ---
-  duration_ms: 2.037667
+  duration_ms: 3.206209
   type: 'test'
   ...
 # Subtest: mocked adviser receives conditional preference and separate approval requirements
 ok 8 - mocked adviser receives conditional preference and separate approval requirements
   ---
-  duration_ms: 0.879333
+  duration_ms: 1.613375
   type: 'test'
   ...
-1..8
-# tests 8
+# Subtest: mocked full research inventory stays bounded and excludes superseded claims
+ok 9 - mocked full research inventory stays bounded and excludes superseded claims
+  ---
+  duration_ms: 3.080375
+  type: 'test'
+  ...
+# Subtest: mocked five parallel tools fit full research context and preserve evidence data
+ok 10 - mocked five parallel tools fit full research context and preserve evidence data
+  ---
+  duration_ms: 3.1835
+  type: 'test'
+  ...
+1..10
+# tests 10
 # suites 0
-# pass 8
+# pass 10
 # fail 0
 # cancelled 0
 # skipped 0
 # todo 0
-# duration_ms 64.118125
+# duration_ms 84.691875

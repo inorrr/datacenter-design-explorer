@@ -1,0 +1,72 @@
+{
+  "version": "research-2026-10-05",
+  "retrievedAt": "2026-10-06T02:12:53.217859+00:00",
+  "fx": {
+    "period": "2025 annual average",
+    "usdPerCad": 0.7154099298898269,
+    "usdPerEur": 1.129059951352125,
+    "cadPerUsd": 1.3978,
+    "cadPerEur": 1.5782,
+    "source": "S14"
+  },
+  "leaseProductiveFraction": 0.95,
+  "leaseProductiveBasis": "Planning assumption: 95% of billed GPU-hours translate to productive reference hours; hardware and workload equivalence unvalidated. Ten percent service allowance remains an assumption, not itemized storage/network quote.",
+  "countries": {
+    "IRL": {
+      "electricityLocal": 0.1724,
+      "electricityCurrency": "EUR",
+      "electricityUsd": 0.19464993561310634,
+      "leaseUsd": 8.376,
+      "leaseProvider": "Azure North Europe NC40ads H100 v5",
+      "electricityBasis": "2025-S2 Eurostat band IF, excluding VAT/recoverable taxes",
+      "electricitySources": [
+        "S11",
+        "S14"
+      ],
+      "leaseSources": [
+        "S18",
+        "S19",
+        "S20"
+      ],
+      "limitations": "National electricity proxy; H100 NVL94GB single GPU is not validated as SXM80GB/InfiniBand-equivalent. Storage/egress and cluster allocation unknown."
+    },
+    "FIN": {
+      "electricityLocal": 0.06484999999999999,
+      "electricityCurrency": "EUR",
+      "electricityUsd": 0.07321953784518528,
+      "leaseUsd": 4.5,
+      "leaseProvider": "Nebius eu-north1 H100 NVLink",
+      "electricityBasis": "2025-S2 Eurostat band IF ex-tax energy/network + 2026 class I tax/fee",
+      "electricitySources": [
+        "S11",
+        "S12",
+        "S13",
+        "S14"
+      ],
+      "leaseSources": [
+        "S15",
+        "S16"
+      ],
+      "limitations": "National proxy with current data-centre tax adjustment, not a Uusimaa utility offer. Storage, quota and reservation terms unknown."
+    },
+    "CAN": {
+      "electricityLocal": 0.13,
+      "electricityCurrency": "CAD",
+      "electricityUsd": 0.09300329088567749,
+      "leaseUsd": 7.912,
+      "leaseProvider": "AWS Canada Central p5.48xlarge, 8 H100 GPUs",
+      "electricityBasis": "Hydro-Qu\u00e9bec proposed average new >5MW data-centre rate; planning policy scenario",
+      "electricitySources": [
+        "S3",
+        "S14",
+        "S21",
+        "S22"
+      ],
+      "leaseSources": [
+        "S17",
+        "S27"
+      ],
+      "limitations": "Proposed electricity rate not confirmed approved; LG demand-billed fallback shown separately. AWS regional public on-demand benchmark, not cheapest Canadian supplier or capacity offer."
+    }
+  }
+}

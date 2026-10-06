@@ -10,3 +10,6 @@
 - Individual request explanation: request-walkthrough.md supplied; team members must personalize with accurate contributions.
 - Pending instructor confirmation: standalone five-minute investment presentation and two-page investment memo. Not generated; absence does not block website work.
 - Human review: at least three sources must be reviewed by team, not silently relabeled from agent research.
+
+
+Research update: include docs/country-research.md, db/seed/pricing.json and reports/research/ with the current engineering package. Source review/video/individual explanation remain human tasks; standalone investment memo/deck remain pending confirmation.

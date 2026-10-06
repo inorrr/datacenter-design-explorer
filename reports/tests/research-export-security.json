@@ -1,0 +1,14 @@
+{
+  "at": "2026-10-06T02:36:48.475624+00:00",
+  "files_scanned": 207,
+  "actual_key_and_service_credentials_absent": true,
+  "api_key_pattern_scan": "pass",
+  "excluded": [
+    ".env.local",
+    ".dev.vars",
+    "assignment PDF/verbatim text",
+    "runtime/cache/dependencies",
+    "tsconfig build cache"
+  ],
+  "private_credentials_logged": false
+}

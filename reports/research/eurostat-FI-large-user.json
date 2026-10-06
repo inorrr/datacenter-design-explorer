@@ -1,0 +1,211 @@
+{
+  "endpoint": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/nrg_pc_205?lang=en&geo=FI&time=2025-S2&currency=EUR&nrg_cons=MWH70000-149999&tax=X_VAT",
+  "response": {
+    "version": "2.0",
+    "class": "dataset",
+    "label": "Electricity prices for non-household consumers - bi-annual data",
+    "source": "ESTAT",
+    "updated": "2026-10-05T23:00:00+0200",
+    "value": {
+      "0": 0.0422
+    },
+    "id": [
+      "freq",
+      "siec",
+      "nrg_cons",
+      "unit",
+      "tax",
+      "currency",
+      "geo",
+      "time"
+    ],
+    "size": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "dimension": {
+      "freq": {
+        "label": "Time frequency",
+        "category": {
+          "index": {
+            "S": 0
+          },
+          "label": {
+            "S": "Half-yearly, semesterly"
+          }
+        }
+      },
+      "siec": {
+        "label": "Standard international energy product classification (SIEC)",
+        "category": {
+          "index": {
+            "E7000": 0
+          },
+          "label": {
+            "E7000": "Electricity"
+          }
+        }
+      },
+      "nrg_cons": {
+        "label": "Energy consumption",
+        "category": {
+          "index": {
+            "MWH70000-149999": 0
+          },
+          "label": {
+            "MWH70000-149999": "Consumption from 70 000 MWh to 149 999 MWh - band IF"
+          }
+        }
+      },
+      "unit": {
+        "label": "Unit of measure",
+        "category": {
+          "index": {
+            "KWH": 0
+          },
+          "label": {
+            "KWH": "Kilowatt-hour"
+          }
+        }
+      },
+      "tax": {
+        "label": "Taxes",
+        "category": {
+          "index": {
+            "X_VAT": 0
+          },
+          "label": {
+            "X_VAT": "Excluding VAT and other recoverable taxes and levies"
+          }
+        }
+      },
+      "currency": {
+        "label": "Currency",
+        "category": {
+          "index": {
+            "EUR": 0
+          },
+          "label": {
+            "EUR": "Euro"
+          }
+        }
+      },
+      "geo": {
+        "label": "Geopolitical entity (reporting)",
+        "category": {
+          "index": {
+            "FI": 0
+          },
+          "label": {
+            "FI": "Finland"
+          }
+        }
+      },
+      "time": {
+        "label": "Time",
+        "category": {
+          "index": {
+            "2025-S2": 0
+          },
+          "label": {
+            "2025-S2": "2025-S2"
+          }
+        }
+      }
+    },
+    "extension": {
+      "lang": "EN",
+      "description": "<p>Bi-annual statistics on real invoiced electricity prices charged to final non-household (industrial) consumers, classified by annual consumption bands IA\u2013IG and by three tax levels, in line with Eurostat methodology and Regulation (EU) 2016/1952.</p>",
+      "id": "NRG_PC_205",
+      "agencyId": "ESTAT",
+      "version": "1.0",
+      "datastructure": {
+        "id": "NRG_PC_205",
+        "agencyId": "ESTAT",
+        "version": "64.0"
+      },
+      "annotation": [
+        {
+          "type": "CREATED",
+          "date": "2023-06-13T11:20:27+0200"
+        },
+        {
+          "type": "DISSEMINATION_DOI_XML",
+          "title": "<adms:identifier xmlns:adms=\"http://www.w3.org/ns/adms#\" xmlns:skos=\"http://www.w3.org/2004/02/skos/core.html\" xmlns:dct=\"http://purl.org/dc/terms/\" xmlns:rdf=\"http://www.w3.org/1999/02/22-rdf-syntax-ns#\"><adms:Identifier rdf:about=\"https://doi.org/10.2908/NRG_PC_205\"><skos:notation rdf:datatype=\"http://purl.org/spar/datacite/doi\">10.2908/NRG_PC_205</skos:notation><dct:creator rdf:resource=\"http://publications.europa.eu/resource/authority/corporate-body/ESTAT\"/><dct:issued rdf:datatype=\"http://www.w3.org/2001/XMLSchema#date\">2023-01-23</dct:issued></adms:Identifier></adms:identifier>"
+        },
+        {
+          "type": "DISSEMINATION_EXPLANATORY_LINK",
+          "title": "text-category",
+          "href": "https://ec.europa.eu/eurostat/databrowser-backend/api/public/explanatory-notes/get/Info_note_NRG_20260917.pdf",
+          "text": "Information note"
+        },
+        {
+          "type": "DISSEMINATION_EXPLANATORY_LINK",
+          "title": "text-category",
+          "href": "https://ec.europa.eu/eurostat/databrowser-backend/api/public/explanatory-notes/get/Info_note_NRG_20260917.pdf"
+        },
+        {
+          "type": "DISSEMINATION_EXPLANATORY_LINK",
+          "title": "text-category",
+          "href": "https://ec.europa.eu/eurostat/databrowser-backend/api/public/explanatory-notes/get/Info_note_NRG_20260917.pdf"
+        },
+        {
+          "type": "DISSEMINATION_OBJECT_TYPE",
+          "title": "DATASET"
+        },
+        {
+          "type": "DISSEMINATION_TIMESTAMP_DATA",
+          "date": "2026-10-05T23:00:00+0200"
+        },
+        {
+          "type": "DISSEMINATION_TIMESTAMP_GLOBAL",
+          "date": "2026-10-05T23:00:00+0200"
+        },
+        {
+          "type": "DISSEMINATION_TIMESTAMP_PLANNED",
+          "date": "2026-10-05T23:00:00+0200"
+        },
+        {
+          "type": "OBS_COUNT",
+          "title": "95043"
+        },
+        {
+          "type": "OBS_PERIOD_OVERALL_LATEST",
+          "title": "2026-S1"
+        },
+        {
+          "type": "OBS_PERIOD_OVERALL_OLDEST",
+          "title": "1985-S1"
+        },
+        {
+          "type": "SOURCE_INSTITUTIONS",
+          "text": "Eurostat"
+        },
+        {
+          "type": "UPDATE_DATA",
+          "date": "2026-10-05T23:00:00+0200"
+        },
+        {
+          "type": "UPDATE_STRUCTURE",
+          "date": "2026-10-05T23:00:00+0200"
+        }
+      ],
+      "positions-with-no-data": {
+        "freq": [],
+        "siec": [],
+        "nrg_cons": [],
+        "unit": [],
+        "tax": [],
+        "currency": [],
+        "geo": [],
+        "time": []
+      }
+    }
+  }
+}
