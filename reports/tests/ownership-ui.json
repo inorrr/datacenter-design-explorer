@@ -1,0 +1,43 @@
+{
+  "at": "2026-10-06T03:18:43.872Z",
+  "deployed": [
+    {
+      "page": "overview",
+      "alerts": [],
+      "robustness": true,
+      "processText": []
+    },
+    {
+      "page": "countries",
+      "alerts": [],
+      "processText": []
+    },
+    {
+      "page": "design",
+      "alerts": [],
+      "processText": []
+    },
+    {
+      "page": "evidence",
+      "alerts": [],
+      "source28": true,
+      "processText": []
+    },
+    {
+      "page": "adviser",
+      "alerts": [],
+      "processText": []
+    }
+  ],
+  "mobile": {
+    "documentWidth": 390,
+    "viewport": 390
+  },
+  "robustnessRows": 15,
+  "scenario": {
+    "pue": 1.4,
+    "energyGWh": 245.28,
+    "resetEnergyGWh": 219
+  },
+  "overviewVerifiedAfterCalculation": true
+}

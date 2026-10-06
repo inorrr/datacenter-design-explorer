@@ -1,5 +1,5 @@
 {
-  "version": "research-2026-10-05",
+  "version": "research-2026-10-05-costs",
   "retrievedAt": "2026-10-06T02:12:53.217859+00:00",
   "fx": {
     "period": "2025 annual average",
@@ -68,5 +68,21 @@
       ],
       "limitations": "Proposed electricity rate not confirmed approved; LG demand-billed fallback shown separately. AWS regional public on-demand benchmark, not cheapest Canadian supplier or capacity offer."
     }
+  },
+  "ownership": {
+    "facilityPerMw": 12430000,
+    "facilityBasis": "JLL 2026 global air-cooled shell/core forecast USD11.3m/MW \u00d7 1.10 liquid-cooling premium = USD12.43m/MW; global proxy for all three regions, not local quote. Land and active IT excluded.",
+    "gpuServerPrice": 319924,
+    "gpuPerServer": 8,
+    "gpuPrice": 39990.5,
+    "gpuPriceRange": [
+      39523,
+      41723
+    ],
+    "gpuBasis": "Exxact HGX H100 assembled server: Essential USD319,924 / 8 GPUs. Professional USD316,184 and Premium USD333,784 define configuration range, not market confidence bounds. CPU/RAM/baseboard included; separate allowance covers shared fabric/storage only.",
+    "sources": [
+      "S28",
+      "S29"
+    ]
   }
 }

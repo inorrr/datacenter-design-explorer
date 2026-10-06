@@ -13,3 +13,5 @@
 
 
 Research update: include docs/country-research.md, db/seed/pricing.json and reports/research/ with the current engineering package. Source review/video/individual explanation remain human tasks; standalone investment memo/deck remain pending confirmation.
+
+Ownership research: docs/ownership-research.md, data-only migration 0001_ownership_research.sql, reports/research/ownership-source-verification.json and ownership test/UI/provider reports. Model uses public ownership benchmarks and fifteen fixed robustness scenarios. This does not replace source review, a real recording or individual contribution explanations.

@@ -1,11 +1,11 @@
 {
-  "at": "2026-10-06T02:32:47.156Z",
+  "at": "2026-10-06T03:17:34.430Z",
   "environment": "Real deployed Sites Worker/D1; private platform service access supplies no human SIWC identity",
-  "deployment": "appgdep_6ac45d9604b481918ded59cd58812f19",
-  "commit": "3daa8f375a41c192de96f3edd67de26e5872c2f5",
+  "deployment": "appgdep_6ac467f93164819181e303962f014197",
+  "commit": "21674909a3533a95aa38a2eebffe169c1ca90eca",
   "origin": "https://datacenter-design-explorer.yinuozhao959.chatgpt.site",
-  "snapshot": "a582573c0a6ed896d0db46958c84c545d2192e5766f0ee4ebf0801aad8d234ed",
-  "revision": 4,
+  "snapshot": "aac368d159ff3c887443f174e25a010bdf5252b758cf361cfbf95a1642bf1c1b",
+  "revision": 5,
   "tests": [
     {
       "name": "deployed Worker health through supported service access to public site",

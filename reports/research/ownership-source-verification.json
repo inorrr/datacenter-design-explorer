@@ -1,0 +1,59 @@
+{
+  "at": "2026-10-06T03:12:04.696335+00:00",
+  "method": "Real web retrieval of original publisher documents; no mocks",
+  "sources": [
+    {
+      "id": "S28",
+      "url": "https://www.jll.com/content/dam/jllcom/en/global/documents/reports/research-reports/26-research-global-data-center-outlook-new.pdf",
+      "page": 25,
+      "forecastUsdPerMw": 11300000,
+      "liquidPremium": 0.1,
+      "scope": "single-tenant 50MW shell/core; land and active IT excluded"
+    },
+    {
+      "id": "S29",
+      "url": "https://configurator.exxactcorp.com/configure/TS4-193475697",
+      "directPricesUsd": {
+        "Essential": 319924,
+        "Professional": 316184,
+        "Premium": 333784
+      },
+      "gpus": 8,
+      "cacheDiscrepancy": "Search cache showed 319484/316844; directly opened source showed 319924/316184; direct values selected."
+    },
+    {
+      "id": "S30",
+      "systemGpus": 8,
+      "ratedKw": 10.2
+    },
+    {
+      "id": "S31",
+      "idleKw": 1.86,
+      "maxMeasuredKw": 8.48,
+      "ratedKw": 10.2,
+      "scope": "one configuration; no generalized workload equivalence"
+    },
+    {
+      "id": "S32",
+      "compute": "running billed; stopped not billed; reservations and storage differ"
+    },
+    {
+      "id": "S33",
+      "compute": "stopped allocated billed; deallocated not billed; ancillary charges remain"
+    }
+  ],
+  "failed_retrievals": [
+    {
+      "publisher": "Turner & Townsend",
+      "paths": [
+        "2025 root",
+        "2025 cost-trends",
+        "2025 methodology"
+      ],
+      "outcome": "redirected to unrelated Climate Environmental 2026 report",
+      "used_in_model": false
+    }
+  ],
+  "human_verified": false,
+  "openai_calls": 0
+}

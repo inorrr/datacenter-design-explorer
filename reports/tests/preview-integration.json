@@ -1,7 +1,7 @@
 {
   "environment": "real local Vinext + D1; SIWC identity simulated by supported preview middleware; no real OpenAI calls",
   "origin": "http://127.0.0.1:5173",
-  "at": "2026-10-06T02:28:42.940Z",
+  "at": "2026-10-06T03:12:52.687Z",
   "tests": [
     {
       "name": "real preview D1 read persists seeded evidence",

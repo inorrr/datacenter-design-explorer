@@ -1,0 +1,74 @@
+{
+  "at": "2026-10-06T03:17:04.722Z",
+  "environment": "Real local Vinext/D1 and real OpenAI provider; supported simulated preview identity",
+  "tests": [
+    {
+      "name": "real provider returned grounded answer",
+      "pass": true
+    },
+    {
+      "name": "current ownership references cited",
+      "pass": true
+    },
+    {
+      "name": "assumption sensitivity acknowledged",
+      "pass": true
+    }
+  ],
+  "raw_question_or_answer_logged": false,
+  "status": 200,
+  "citations": [
+    {
+      "source_id": "S28",
+      "claim_ids": [
+        "C35"
+      ]
+    },
+    {
+      "source_id": "S29",
+      "claim_ids": [
+        "C36"
+      ]
+    },
+    {
+      "source_id": "S28",
+      "claim_ids": [
+        "C40"
+      ]
+    },
+    {
+      "source_id": "S29",
+      "claim_ids": [
+        "C40"
+      ]
+    },
+    {
+      "source_id": "S30",
+      "claim_ids": [
+        "C40"
+      ]
+    },
+    {
+      "source_id": "S31",
+      "claim_ids": [
+        "C40"
+      ]
+    },
+    {
+      "source_id": "S32",
+      "claim_ids": [
+        "C40"
+      ]
+    },
+    {
+      "source_id": "S33",
+      "claim_ids": [
+        "C40"
+      ]
+    }
+  ],
+  "design_revision": 7,
+  "model_version": "1.4.0",
+  "actualTokenDelta": 6926,
+  "requestDelta": 1
+}

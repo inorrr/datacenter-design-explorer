@@ -1,17 +1,18 @@
 {
-  "as_of": "2026-10-06T02:34:44.170655+00:00",
+  "as_of": "2026-10-06T03:19:01.393431+00:00",
   "deployed_adviser_sessions": 11,
   "successful_deployed_sessions": 6,
   "controlled_local_live_eval_runs": 3,
   "direct_diagnostic_requests": 1,
   "reported_deployed_tokens": 117890,
   "reported_local_eval_tokens": 35354,
-  "reported_total_tokens": 185045,
-  "reported_input_tokens": 179310,
-  "reported_output_tokens": 5735,
+  "reported_total_tokens": 191971,
+  "reported_input_tokens": 185562,
+  "reported_output_tokens": 6409,
   "unknown_usage_requests": 2,
   "status": "Reported totals include all historical live-provider fixture runs, local preview and deployed sessions, including failed attempts. Two quota-rejected requests returned no usage. Excludes Codex development usage.",
-  "local_preview_provider_sessions": 2,
-  "reported_local_preview_tokens": 31801,
-  "research_update_tokens": 70185
+  "local_preview_provider_sessions": 3,
+  "reported_local_preview_tokens": 38727,
+  "research_update_tokens": 70185,
+  "ownership_update_tokens": 6926
 }

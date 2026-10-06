@@ -1,6 +1,6 @@
 {
-  "at": "2026-10-06T02:58:48.456481+00:00",
-  "files_scanned": 213,
+  "at": "2026-10-06T03:20:53.479336+00:00",
+  "files_scanned": 225,
   "actual_key_and_service_credentials_absent": true,
   "api_key_pattern_scan": "pass",
   "excluded": [
