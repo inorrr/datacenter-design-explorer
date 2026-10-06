@@ -98,3 +98,7 @@ Owner personally verified S4/S28/S29 and authorized human_verified recording. Th
 
 ### Human review presentation
 Human-verified sources display a separate status tag, with review suffix removed from the displayed title. Stored titles and original evidence are preserved for audit history; no model, identity, or source verification mutation.
+
+
+### Short source references
+Reviewed source copies display original S4/S28/S29 references from their recorded review relationship rather than UUIDs. Source heading, evidence links and adviser citation labels use consistent display helpers. Unknown custom sources use Source rather than an invented numbered reference. Internal record identity and citation validation unchanged.
