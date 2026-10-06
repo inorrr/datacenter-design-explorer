@@ -1,0 +1,28 @@
+{
+  "basis": "Owner personally confirmed review in chat; recorded through existing authenticated administrator evidence form. Original agent-reviewed source records retained; new human-reviewed records reference S4/S28/S29.",
+  "records": [
+    {
+      "id": "32ba011d-6c31-4393-8507-edea76646586",
+      "title": "Eight-GPU HGX H100 server configurator \u2014 human-verified review of S29",
+      "url": "https://configurator.exxactcorp.com/configure/TS4-193475697",
+      "verification_status": "human_verified",
+      "verified_at": "2026-10-06T03:42:02.125Z"
+    },
+    {
+      "id": "c660bbc5-2d27-42a9-a36e-137458536a1d",
+      "title": "Data centres metered electricity consumption 2024 \u2014 human-verified review of S4",
+      "url": "https://www.cso.ie/en/releasesandpublications/ep/p-dcmec/datacentresmeteredelectricityconsumption2024/",
+      "verification_status": "human_verified",
+      "verified_at": "2026-10-06T03:42:00.321Z"
+    },
+    {
+      "id": "d5aef197-3e9a-41d1-a934-fca15b4042e2",
+      "title": "2026 Global Data Center Outlook \u2014 human-verified review of S28",
+      "url": "https://www.jll.com/content/dam/jllcom/en/global/documents/reports/research-reports/26-research-global-data-center-outlook-new.pdf",
+      "verification_status": "human_verified",
+      "verified_at": "2026-10-06T03:42:01.629Z"
+    }
+  ],
+  "persistence": "Confirmed by real public deployed snapshot and browser reload",
+  "human_minimum": true
+}

@@ -90,3 +90,7 @@ Published model 1.4.0 and verified live D1 revision 5: 33 sources, 40 claims, 9 
 
 ### Submission guidance follow-up
 User confirmed PS3 URL and engineering package submitted. Refreshed human review instructions, two-minute narration and individual request walkthrough for current model 1.4.0. No source was relabeled human-verified by the agent. No runtime changes or AI requests. Actual recording and personalized explanation remain human tasks.
+
+
+### Owner-confirmed human reviews
+Owner personally verified S4/S28/S29 and authorized human_verified recording. Three reviewed source copies were added through the real signed-in admin form, preserving original evidence and limitations. Public live snapshot and reload confirm persistence. Sanitized report excludes account identifiers. No AI call or model change.
