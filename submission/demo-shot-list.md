@@ -22,4 +22,4 @@ Rehearse at about 125 words per minute. Sign in/register before recording; start
 ## 1:50–2:00 — Conclusion
 “Our deliverables include the published site, diagrams, schema, sources and test results. The model supports further investigation; actual demand, workload performance and delivered site quotes still need verification.”
 
-Save the actual recording as submission/demo-video.mp4. A script is not the required video.
+Completed recording supplied by the project owner: [Watch the demonstration](https://youtu.be/wRD0rWTD5w8). The submission uses this hosted video link; no local video file is included.

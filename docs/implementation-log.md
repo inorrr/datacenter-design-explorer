@@ -110,3 +110,7 @@ Updated request walkthrough to a finished solo-project explanation at owner requ
 
 ### Public submission links
 Added GitHub repository and Engineering evidence buttons to the shared footer on every page. Links open the public repository and submission subdirectory; no authentication or model changes.
+
+
+### Recorded demonstration submitted
+Owner supplied recording https://youtu.be/wRD0rWTD5w8. Linked from submission README, video reference file and recording guide; submission status updated. Web fetch was unavailable, so no independent content/duration/access claim is made. No application change or AI API request.
